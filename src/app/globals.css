@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --halal-green: #1a6e35;
+    --halal-green-light: #22a24f;
+    --halal-green-dark: #145828;
+    --halal-cream: #f8f7f4;
+  }
+  * { @apply border-gray-100; }
+  body { @apply bg-halal-cream text-gray-900 antialiased; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-halal-green text-white px-4 py-2 rounded-lg font-medium
+           hover:bg-halal-green-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-white text-halal-green border border-halal-green px-4 py-2 rounded-lg font-medium
+           hover:bg-green-50 transition-colors;
+  }
+  .cert-badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium;
+  }
+  .card {
+    @apply bg-white rounded-xl border border-gray-100
+           hover:border-halal-green/40 hover:shadow-sm transition-all duration-150;
+  }
+  .input-field {
+    @apply w-full border border-gray-200 rounded-lg px-3 py-2 text-sm
+           focus:outline-none focus:ring-2 focus:ring-halal-green/20 focus:border-halal-green/60;
+  }
+}
+
+.leaflet-container { z-index: 1; }
