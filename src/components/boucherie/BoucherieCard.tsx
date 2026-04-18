@@ -4,13 +4,23 @@ import type { Boucherie } from '@/types'
 import CertBadge from '@/components/ui/CertBadge'
 import StarRating from '@/components/ui/StarRating'
 
+const BAYES_M = 50
+const BAYES_C = 4.2
+
+function bayesianScore(rating: number, reviewsCount: number): number {
+  const v = reviewsCount || 0
+  const R = rating || 0
+  return (v / (v + BAYES_M)) * R + (BAYES_M / (v + BAYES_M)) * BAYES_C
+}
+
 interface Props {
   boucherie: Boucherie
 }
 
 export default function BoucherieCard({ boucherie: b }: Props) {
-  const rating = b.rating_combined ?? b.rating ?? 0
-  const reviews = (b.reviews_count || 0) + (b.community_reviews_count || 0)
+  const googleRating = b.rating ?? 0
+  const googleCount = b.reviews_count || 0
+  const halalScore = googleRating > 0 ? bayesianScore(googleRating, googleCount) : 0
 
   return (
     <Link href={`/boucherie/${b.slug}`} className="card block p-4 group">
@@ -26,8 +36,11 @@ export default function BoucherieCard({ boucherie: b }: Props) {
         <span className="truncate">{b.city}</span>
       </div>
 
-      {rating > 0 && (
-        <StarRating rating={rating} count={reviews} size="sm" />
+      {googleRating > 0 && (
+        <div className="space-y-1">
+          <StarRating rating={googleRating} count={googleCount} size="sm" source="google" />
+          <StarRating rating={halalScore} size="sm" source="halal" />
+        </div>
       )}
 
       {b.phone && (

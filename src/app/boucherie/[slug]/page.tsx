@@ -12,6 +12,15 @@ import CertVoteSection from '@/components/boucherie/CertVoteSection'
 import { CERTIFICATION_INFO } from '@/types'
 import type { Metadata } from 'next'
 
+const BAYES_M = 50
+const BAYES_C = 4.2
+
+function bayesianScore(rating: number, reviewsCount: number): number {
+  const v = reviewsCount || 0
+  const R = rating || 0
+  return (v / (v + BAYES_M)) * R + (BAYES_M / (v + BAYES_M)) * BAYES_C
+}
+
 interface Props {
   params: { slug: string }
 }
@@ -39,7 +48,9 @@ export default async function BoucheriePage({ params }: Props) {
   ])
 
   const certInfo = CERTIFICATION_INFO[b.certification]
-  const rating = b.rating_combined ?? b.rating ?? 0
+  const googleRating = b.rating ?? 0
+  const googleCount = b.reviews_count || 0
+  const halalScore = googleRating > 0 ? bayesianScore(googleRating, googleCount) : 0
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${b.lat},${b.lng}`
 
   const jsonLd = {
@@ -54,10 +65,10 @@ export default async function BoucheriePage({ params }: Props) {
     },
     geo: { '@type': 'GeoCoordinates', latitude: b.lat, longitude: b.lng },
     telephone: b.phone,
-    aggregateRating: rating > 0 ? {
+    aggregateRating: googleRating > 0 ? {
       '@type': 'AggregateRating',
-      ratingValue: rating,
-      reviewCount: b.reviews_count,
+      ratingValue: googleRating,
+      reviewCount: googleCount,
     } : undefined,
   }
 
@@ -75,13 +86,16 @@ export default async function BoucheriePage({ params }: Props) {
                 <CertBadge certification={b.certification} verified={b.certification_verified} />
               </div>
 
-              <div className="flex items-center gap-1.5 text-gray-600 text-sm mb-2">
+              <div className="flex items-center gap-1.5 text-gray-600 text-sm mb-3">
                 <MapPin className="w-4 h-4 shrink-0" />
                 <span>{b.address}, {b.city}</span>
               </div>
 
-              {rating > 0 && (
-                <StarRating rating={rating} count={b.reviews_count} />
+              {googleRating > 0 && (
+                <div className="space-y-1.5">
+                  <StarRating rating={googleRating} count={googleCount} source="google" />
+                  <StarRating rating={halalScore} source="halal" />
+                </div>
               )}
             </div>
 
@@ -115,15 +129,11 @@ export default async function BoucheriePage({ params }: Props) {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 space-y-6">
-            {/* Photos */}
             <PhotosSection boucherieId={b.id} photos={photos} />
-
-            {/* Avis */}
             <AvisSection boucherieId={b.id} avis={avis} />
           </div>
 
           <div className="space-y-4">
-            {/* Certification détail */}
             <div className="card p-4">
               <div className="flex items-center gap-2 mb-3">
                 <Shield className="w-5 h-5 text-halal-green" />
@@ -158,12 +168,10 @@ export default async function BoucheriePage({ params }: Props) {
               )}
             </div>
 
-            {/* Vote certification communautaire */}
             <CertVoteSection boucherieId={b.id} votes={certVotes} />
           </div>
         </div>
 
-        {/* Similaires */}
         {similaires.length > 0 && (
           <section className="mt-10">
             <h2 className="text-lg font-bold mb-4">Autres boucheries à {b.city}</h2>
