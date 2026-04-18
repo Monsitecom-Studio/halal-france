@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { MapPin, Plus, Search, User, LogIn } from 'lucide-react'
+import { MapPin, Plus, Search, User, LogIn, Download } from 'lucide-react'
 import { clsx } from 'clsx'
 import { useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
@@ -10,6 +10,7 @@ import { createClient } from '@/lib/supabase/client'
 export default function Navbar() {
   const path = usePathname()
   const [user, setUser] = useState<any>(null)
+  const [installPrompt, setInstallPrompt] = useState<any>(null)
 
   useEffect(() => {
     const supabase = createClient()
@@ -17,8 +18,25 @@ export default function Navbar() {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_e, session) => {
       setUser(session?.user ?? null)
     })
-    return () => subscription.unsubscribe()
+
+    const handler = (e: any) => {
+      e.preventDefault()
+      setInstallPrompt(e)
+    }
+    window.addEventListener('beforeinstallprompt', handler)
+
+    return () => {
+      subscription.unsubscribe()
+      window.removeEventListener('beforeinstallprompt', handler)
+    }
   }, [])
+
+  const handleInstall = async () => {
+    if (!installPrompt) return
+    installPrompt.prompt()
+    const { outcome } = await installPrompt.userChoice
+    if (outcome === 'accepted') setInstallPrompt(null)
+  }
 
   return (
     <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
@@ -72,6 +90,16 @@ export default function Navbar() {
               <LogIn className="w-4 h-4" />
               <span className="hidden sm:inline">Connexion</span>
             </Link>
+          )}
+
+          {installPrompt && (
+            <button
+              onClick={handleInstall}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition-colors"
+            >
+              <Download className="w-4 h-4" />
+              <span className="hidden sm:inline">Installer</span>
+            </button>
           )}
 
           <Link
