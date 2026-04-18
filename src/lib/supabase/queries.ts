@@ -6,7 +6,7 @@ import type { Boucherie, SearchFilters } from '@/types'
 const BAYES_M = 50
 const BAYES_C = 4.2
 
-function bayesianScore(rating: number, reviewsCount: number): number {
+function bayesianScore(rating: number | undefined, reviewsCount: number): number {
   const v = reviewsCount || 0
   const R = rating || 0
   return (v / (v + BAYES_M)) * R + (BAYES_M / (v + BAYES_M)) * BAYES_C
