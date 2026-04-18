@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg"><defs><mask id="imagine-text-gaps-m5kkxa" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="420" fill="white"/><rect x="231.17626953125" y="275.025634765625" width="217.64743041992188" height="52.20512390136719" fill="black" rx="2"/><rect x="281.1682434082031" y="338.6666259765625" width="117.6634521484375" height="20.410255432128906" fill="black" rx="2"/><rect x="244.83811950683594" y="376.7179260253906" width="190.32369995117188" height="17.333332061767578" fill="black" rx="2"/></mask></defs>
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Halal France</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo moderne Halal France</desc>
+  
+
+  <!-- Cercle principal vert sombre -->
+  <circle cx="340" cy="160" r="110" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Arc décoratif intérieur -->
+  <circle cx="340" cy="160" r="96" fill="none" stroke="#faf9f6" stroke-width="1.2" opacity="0.3" style="fill:none;stroke:rgb(250, 249, 246);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Hachoir stylisé : lame rectangulaire arrondie -->
+  <!-- Lame -->
+  <rect x="280" y="100" width="120" height="85" rx="6" fill="#faf9f6" style="fill:rgb(250, 249, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Découpe courbe du bas de la lame -->
+  <path d="M280 155 Q340 195 400 155 L400 185 Q340 215 280 185 Z" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Tranchant bas -->
+  <path d="M280 185 Q340 218 400 185" fill="none" stroke="#faf9f6" stroke-width="2.5" stroke-linecap="round" style="fill:none;stroke:rgb(250, 249, 246);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Manche -->
+  <rect x="318" y="100" width="44" height="22" rx="4" fill="#c8a96e" style="fill:rgb(200, 169, 110);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="326" y="94" width="28" height="12" rx="3" fill="#b8924a" style="fill:rgb(184, 146, 74);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Croissant petit coin haut droit -->
+  <circle cx="388" cy="112" r="13" fill="#faf9f6" style="fill:rgb(250, 249, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="394" cy="107" r="10" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Étoile 5 branches -->
+  <polygon points="402,103 404,109 410,109 405,113 407,119 402,115 397,119 399,113 394,109 400,109" fill="#faf9f6" style="fill:rgb(250, 249, 246);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Ligne déco sous cercle -->
+  <line x1="200" y1="288" x2="480" y2="288" stroke="#1a6b3c" stroke-width="0.8" opacity="0.25" mask="url(#imagine-text-gaps-m5kkxa)" style="fill:rgb(0, 0, 0);stroke:rgb(26, 107, 60);color:rgb(0, 0, 0);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HALAL -->
+  <text x="340" y="316" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="42" font-weight="700" letter-spacing="10" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Playfair Display&quot;, Georgia, serif;font-size:42px;font-weight:700;text-anchor:middle;dominant-baseline:auto">HALAL</text>
+
+  <!-- Trait central -->
+  <rect x="308" y="326" width="64" height="1.5" rx="1" fill="#c8a96e" style="fill:rgb(200, 169, 110);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- FRANCE -->
+  <text x="340" y="354" text-anchor="middle" font-family="'Lato', Helvetica, sans-serif" font-size="15" font-weight="300" letter-spacing="8" fill="#555" style="fill:rgb(85, 85, 85);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Lato, Helvetica, sans-serif;font-size:15px;font-weight:300;text-anchor:middle;dominant-baseline:auto">FRANCE</text>
+
+  <!-- Tagline -->
+  <text x="340" y="390" text-anchor="middle" font-family="'Lato', Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="2" fill="#aaa" style="fill:rgb(170, 170, 170);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Lato, Helvetica, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">BOUCHERIES CERTIFIÉES</text>
+</svg>

@@ -1,6 +1,17 @@
 import { createClient } from './server'
 import type { Boucherie, SearchFilters } from '@/types'
 
+// Score bayésien : équilibre note et nombre d'avis
+// m = seuil minimum d'avis, C = moyenne globale estimée
+const BAYES_M = 50
+const BAYES_C = 4.2
+
+function bayesianScore(rating: number, reviewsCount: number): number {
+  const v = reviewsCount || 0
+  const R = rating || 0
+  return (v / (v + BAYES_M)) * R + (BAYES_M / (v + BAYES_M)) * BAYES_C
+}
+
 export async function getBoucheries(filters: SearchFilters = {}) {
   const supabase = createClient()
   let query = supabase
@@ -19,19 +30,34 @@ export async function getBoucheries(filters: SearchFilters = {}) {
     query = query.eq('certification', filters.certification)
   }
 
+  // Pour le tri bayésien on récupère tout sans tri Supabase
+  const isBayes = filters.sort === 'popular' || !filters.sort
+
   const sortMap: Record<string, { col: string; asc: boolean }> = {
     rating: { col: 'rating_combined', asc: false },
     reviews: { col: 'reviews_count', asc: false },
     recent: { col: 'created_at', asc: false },
   }
-  const sort = filters.sort && sortMap[filters.sort]
-    ? sortMap[filters.sort]
-    : { col: 'reviews_count', asc: false }
-  query = query.order(sort.col, { ascending: sort.asc })
 
-  const { data, error } = await query.limit(100)
+  if (!isBayes) {
+    const sort = sortMap[filters.sort!] ?? { col: 'reviews_count', asc: false }
+    query = query.order(sort.col, { ascending: sort.asc })
+  }
+
+  const { data, error } = await query.limit(500)
   if (error) throw error
-  return data as Boucherie[]
+
+  const boucheries = data as Boucherie[]
+
+  // Tri bayésien côté JS (tri par défaut / "Popularité")
+  if (isBayes) {
+    boucheries.sort((a, b) =>
+      bayesianScore(b.rating_combined, b.reviews_count) -
+      bayesianScore(a.rating_combined, a.reviews_count)
+    )
+  }
+
+  return boucheries
 }
 
 export async function getBoucherieBySlug(slug: string) {
@@ -85,7 +111,6 @@ export async function getCertificationVotes(boucherieId: string) {
     .select('certification')
     .eq('boucherie_id', boucherieId)
   if (error) throw error
-  // Compte par certification
   const counts: Record<string, number> = {}
   data?.forEach((v) => {
     counts[v.certification] = (counts[v.certification] || 0) + 1
@@ -112,7 +137,6 @@ export async function getVillesWithCount() {
 
 export async function getProximity(lat: number, lng: number, radius = 10, limit = 20) {
   const supabase = createClient()
-  // Approximation : 1 deg lat ≈ 111 km, 1 deg lng ≈ 111 * cos(lat) km
   const latDelta = radius / 111
   const lngDelta = radius / (111 * Math.cos((lat * Math.PI) / 180))
 
@@ -127,7 +151,6 @@ export async function getProximity(lat: number, lng: number, radius = 10, limit 
 
   if (error) throw error
 
-  // Tri par distance réelle
   return (data as Boucherie[]).sort((a, b) => {
     const da = Math.sqrt((a.lat - lat) ** 2 + (a.lng - lng) ** 2)
     const db = Math.sqrt((b.lat - lat) ** 2 + (b.lng - lng) ** 2)
