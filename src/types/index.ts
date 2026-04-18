@@ -39,6 +39,7 @@ export interface Boucherie {
   certification_name?: string
   certification_color?: string
   certification_full_name?: string
+  region_computed?: string
 }
 
 export interface Avis {
@@ -73,7 +74,7 @@ export interface SearchFilters {
   dept?: string
   region?: string
   certification?: Certification | 'all'
-  sort?: 'rating' | 'reviews' | 'recent' | 'distance'
+  sort?: 'rating' | 'reviews' | 'recent' | 'distance' | 'popular'
   lat?: number
   lng?: number
 }
