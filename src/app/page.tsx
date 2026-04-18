@@ -105,24 +105,10 @@ export default async function HomePage() {
               Avis de la communauté, photos, horaires.
             </p>
 
-            <div className="flex items-center bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm max-w-xl mx-auto mb-6 focus-within:border-halal-green/50 transition-colors">
-              <span className="px-4 text-gray-400">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
-                </svg>
-              </span>
+            <div className="max-w-xl mx-auto mb-6">
               <Suspense>
                 <SearchBar />
               </Suspense>
-              <div className="h-6 w-px bg-gray-100 mx-1" />
-              <Link href="/carte" className="flex items-center gap-1.5 px-3 text-sm text-halal-green font-medium whitespace-nowrap">
-                <MapPin className="w-3.5 h-3.5" />
-                Me localiser
-              </Link>
-              <Link href="/boucheries"
-                className="m-2 px-4 py-2 bg-halal-green text-white text-sm font-medium rounded-lg hover:bg-halal-green-dark transition-colors whitespace-nowrap">
-                Rechercher
-              </Link>
             </div>
 
             <div className="flex flex-wrap justify-center gap-2">
