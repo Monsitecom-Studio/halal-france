@@ -1,9 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Camera, Upload, X } from 'lucide-react'
+import { Camera, Upload, X, Image as ImageIcon } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
-import Image from 'next/image'
 
 interface Props {
   boucherieId: string
@@ -68,7 +67,6 @@ export default function PhotosSection({ boucherieId, photos: initialPhotos }: Pr
     <div className="card p-5">
       <h2 className="font-semibold text-lg mb-4">Photos ({photos.length})</h2>
 
-      {/* Galerie */}
       {photos.length > 0 && (
         <div className="grid grid-cols-3 gap-2 mb-4">
           {photos.map((p) => (
@@ -82,7 +80,6 @@ export default function PhotosSection({ boucherieId, photos: initialPhotos }: Pr
         </div>
       )}
 
-      {/* Upload */}
       <div className="bg-gray-50 rounded-xl p-4">
         <p className="text-sm font-medium mb-3">Ajouter une photo</p>
         <select
@@ -115,11 +112,21 @@ export default function PhotosSection({ boucherieId, photos: initialPhotos }: Pr
             </button>
           </div>
         ) : (
-          <label className="cursor-pointer flex flex-col items-center gap-2 border-2 border-dashed border-gray-300 rounded-xl p-6 hover:border-halal-green transition-colors">
-            <Camera className="w-8 h-8 text-gray-400" />
-            <span className="text-sm text-gray-500">Cliquez pour choisir une photo</span>
-            <input type="file" accept="image/*" onChange={handleFile} className="hidden" />
-          </label>
+          <div className="flex gap-2">
+            {/* Depuis la galerie */}
+            <label className="cursor-pointer flex-1 flex flex-col items-center gap-2 border-2 border-dashed border-gray-300 rounded-xl p-4 hover:border-halal-green transition-colors">
+              <ImageIcon className="w-6 h-6 text-gray-400" />
+              <span className="text-xs text-gray-500 text-center">Galerie</span>
+              <input type="file" accept="image/*" onChange={handleFile} className="hidden" />
+            </label>
+
+            {/* Depuis l'appareil photo */}
+            <label className="cursor-pointer flex-1 flex flex-col items-center gap-2 border-2 border-dashed border-gray-300 rounded-xl p-4 hover:border-halal-green transition-colors">
+              <Camera className="w-6 h-6 text-gray-400" />
+              <span className="text-xs text-gray-500 text-center">Appareil photo</span>
+              <input type="file" accept="image/*" capture="environment" onChange={handleFile} className="hidden" />
+            </label>
+          </div>
         )}
       </div>
     </div>
