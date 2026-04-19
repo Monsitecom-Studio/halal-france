@@ -1,0 +1,5863 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-19T14:50:15Z",
+    "timestamp_areas_base": "2026-04-19T08:19:32Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 327045521,
+      "lat": 48.8816147,
+      "lon": 2.3662734,
+      "tags": {
+        "check_date": "2026-03-27",
+        "contact:city": "Paris",
+        "contact:housenumber": "208",
+        "contact:phone": "+33 1 40 37 04 22",
+        "contact:postcode": "75010",
+        "contact:street": "Rue La Fayette",
+        "diet:halal": "yes",
+        "name": "Boucherie Louis Blanc",
+        "ref:FR:SIRET": "52305907900013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345860825,
+      "lat": 43.5288976,
+      "lon": 5.4142592,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Best Halal",
+        "opening_hours": "Tu-Sa 10:30-19:30; Su 10:30-15:00",
+        "shop": "butcher",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 409257592,
+      "lat": 45.7236984,
+      "lon": 4.8646535,
+      "tags": {
+        "addr:city": "Vénissieux",
+        "addr:housenumber": "118",
+        "addr:postcode": "69200",
+        "addr:street": "Avenue Francis de Pressensé",
+        "contact:instagram": "https://www.instagram.com/bebelshop69",
+        "contact:snapchat": "bebelshop69",
+        "diet:halal": "only",
+        "name": "Bebel Shop",
+        "opening_hours": "Mo-Su 08:00-20:00; Fr 08:00-12:30,14:30-20:00",
+        "phone": "+33 4 78 00 62 89",
+        "ref:FR:NAF": "10.11Z",
+        "ref:FR:SIREN": "910983816",
+        "ref:FR:SIRET": "91098381600018",
+        "shop": "butcher",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 567923333,
+      "lat": 48.1267277,
+      "lon": -1.6638739,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Kaboul",
+        "ref:FR:SIRET": "83449240700012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 568257888,
+      "lat": 45.8251103,
+      "lon": 4.8735002,
+      "tags": {
+        "check_date": "2023-01-07",
+        "diet:halal": "yes",
+        "name": "Au boucher du coin",
+        "opening_hours": "Mo-Sa 08:00-19:30; Su 09:00-14:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:meal_voucher": "yes",
+        "ref:FR:SIRET": "88177887200013",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 610467452,
+      "lat": 43.6061004,
+      "lon": 3.8818208,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Le Bon Goût Français",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 863999193,
+      "lat": 45.7537525,
+      "lon": 4.8913602,
+      "tags": {
+        "addr:floor": "0",
+        "check_date": "2026-04-19",
+        "check_date:opening_hours": "2026-04-19",
+        "diet:halal": "no",
+        "level": "0",
+        "name": "Maison Vessiere",
+        "opening_hours": "Tu-Fr 07:00-13:00,15:00-19:00; Sa 07:30-13:30,15:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+33 4 78 54 72 62",
+        "ref:FR:SIRET": "43777902800012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 926618556,
+      "lat": 45.4359371,
+      "lon": 4.3857502,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Laraba",
+        "ref:FR:SIRET": "41072565900016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1008146333,
+      "lat": 48.8240589,
+      "lon": 2.5423992,
+      "tags": {
+        "contact:phone": "+33 1 49 30 09 37",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Gare",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1012595810,
+      "lat": 48.8272785,
+      "lon": 2.5416418,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Maison Grand-Père",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1020780018,
+      "lat": 48.8704546,
+      "lon": 2.3728219,
+      "tags": {
+        "check_date": "2025-03-29",
+        "check_date:opening_hours": "2025-03-28",
+        "diet:halal": "yes",
+        "name": "L'As du goût",
+        "opening_hours:signed": "no",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1023168036,
+      "lat": 48.8705763,
+      "lon": 2.3732019,
+      "tags": {
+        "check_date": "2024-10-05",
+        "check_date:opening_hours": "2024-10-05",
+        "diet:halal": "yes",
+        "name": "Boucherie Tizi Ouzou",
+        "opening_hours:signed": "no",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1111551208,
+      "lat": 48.8934514,
+      "lon": 2.2905716,
+      "tags": {
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "name": "Gougouche",
+        "opening_hours": "Tu-Su 08:00-20:00",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1153528063,
+      "lat": 47.379896,
+      "lon": 0.6923796,
+      "tags": {
+        "addr:city": "Tours",
+        "addr:housenumber": "7",
+        "addr:place": "Place de la Liberté",
+        "addr:postcode": "37000",
+        "check_date": "2024-05-28",
+        "contact:city": "Tours",
+        "contact:housenumber": "7",
+        "contact:phone": "+33 2 47 66 54 77",
+        "contact:postcode": "37000",
+        "contact:street": "Place de la Liberté",
+        "diet:halal": "yes",
+        "name": "Atelier du boucher",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr 10:00-13:00, 14:30-20:00; Sa 10:00-20:00; Su 10:00-13:00",
+        "ref:FR:SIRET": "83093658900019",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1226122255,
+      "lat": 47.2112659,
+      "lon": -1.5611287,
+      "tags": {
+        "check_date": "2025-09-14",
+        "check_date:opening_hours": "2025-09-14",
+        "diet:halal": "only",
+        "name": "Djen djen",
+        "opening_hours": "Mo-Su 08:00-22:00, Fr 08:00-12:45,14:00-22:00",
+        "phone": "+33 2 40 69 59 79",
+        "ref:FR:SIRET": "88885050000016",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1234440456,
+      "lat": 48.0992049,
+      "lon": -1.6534936,
+      "tags": {
+        "addr:city": "Rennes",
+        "addr:housenumber": "23",
+        "addr:postcode": "35000",
+        "addr:street": "Boulevard Léon Bourgeois",
+        "check_date:opening_hours": "2024-07-29",
+        "craft": "caterer",
+        "delivery": "yes",
+        "description": "Boucher Charcutier Traiteur",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Au Délice Limousin",
+        "opening_hours": "Tu-Sa 07:30-13:00,15:00-19:00",
+        "operator": "Vincent Aubault",
+        "phone": "+33 2 99 50 97 63",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "492960836",
+        "ref:FR:SIRET": "49296083600012",
+        "shop": "butcher",
+        "source": "INSEE - 2025-07",
+        "source:addr": "Rennes Métropole",
+        "source:addr:housenumber:ref": "71562",
+        "source:addr:version": "2016-04-01",
+        "website": "http://www.au-delice-limousin.fr",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1318768682,
+      "lat": 48.9499676,
+      "lon": 2.2537343,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Zakia",
+        "ref:FR:SIRET": "44460685900023",
+        "shop": "butcher",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1403259533,
+      "lat": 48.829366,
+      "lon": 2.2340805,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie du Forum",
+        "ref:FR:SIRET": "52089614300010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1454697272,
+      "lat": 48.7934203,
+      "lon": 2.4618101,
+      "tags": {
+        "alt_name": "Boucherie Ousaad",
+        "diet:halal": "only",
+        "name": "Boucherie MK",
+        "ref:FR:SIRET": "50858265700013",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1639890480,
+      "lat": 48.7943412,
+      "lon": 2.336167,
+      "tags": {
+        "check_date:opening_hours": "2025-07-09",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "email": "maison.bertacco@gmail.com",
+        "name": "Maison Bertacco",
+        "opening_hours": "Tu-Sa 07:30-13:00,16:00-19:30; Su 08:00-12:30; Mo off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 1 46 64 20 47",
+        "ref:FR:SIRET": "97831159500018",
+        "shop": "butcher",
+        "website": "http://www.accc-cachan.com/boucherie-coudray-view-22-17.html",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1668776803,
+      "lat": 48.8930905,
+      "lon": 2.3429988,
+      "tags": {
+        "diet:halal": "no",
+        "name": "Charcuterie de Montmartre",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1674779945,
+      "lat": 48.8124089,
+      "lon": 2.2730248,
+      "tags": {
+        "diet:halal": "only",
+        "name": "La Royale Boucherie",
+        "ref:FR:SIRET": "48429167900013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1701032506,
+      "lat": 44.1637154,
+      "lon": 1.5361949,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728394465,
+      "lat": 43.5342476,
+      "lon": 5.4155693,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "La Côte à l'Os",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728470551,
+      "lat": 48.8262745,
+      "lon": 2.3413537,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Atlas",
+        "phone": "+33145899025",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1746547217,
+      "lat": 48.8528674,
+      "lon": 2.4065219,
+      "tags": {
+        "check_date": "2024-09-28",
+        "diet:halal": "only",
+        "name": "Boucherie Maraîchers",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1801876197,
+      "lat": 43.6098863,
+      "lon": 1.4447236,
+      "tags": {
+        "contact:housenumber": "60",
+        "contact:street": "Boulevard de Strasbourg",
+        "diet:halal": "yes",
+        "name": "Le Crystal",
+        "phone": "+33 5 61 99 61 43",
+        "ref:FR:SIRET": "80006174900019",
+        "shop": "butcher",
+        "wheelchair": "no",
+        "wheelchair:description:fr": "Trois marches à l'entrée."
+      }
+    },
+    {
+      "type": "node",
+      "id": 1879722773,
+      "lat": 44.8309059,
+      "lon": -0.5673384,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Place des Capucins",
+        "diet:halal": "only",
+        "name": "El Bahia 33 Viande Hallal",
+        "phone": "+33 5 56 21 14 94",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "514944065",
+        "ref:FR:SIRET": "51494406500028",
+        "shop": "butcher",
+        "source": "INSEE - 2025-02",
+        "survey:date": "2025-12-09"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1895018798,
+      "lat": 43.4817374,
+      "lon": -1.5542666,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Chez Yves",
+        "opening_hours": "Tu-Sa 08:30-13:00, Tu-Fr 16:00-19:00",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1909284412,
+      "lat": 48.8933506,
+      "lon": 2.3273585,
+      "tags": {
+        "contact:city": "Paris",
+        "contact:housenumber": "83",
+        "contact:postcode": "75017",
+        "contact:street": "Avenue de Saint-Ouen",
+        "diet:halal": "yes",
+        "name": "Nouvelle Boucherie de l'Europe",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1909814907,
+      "lat": 43.634055,
+      "lon": 3.8323204,
+      "tags": {
+        "addr:city": "Montpellier",
+        "addr:postcode": "34080",
+        "addr:street": "Avenue Aglaé Adanson",
+        "diet:halal": "yes",
+        "name": "Boucherie Malbosc",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 9:00-14:00",
+        "phone": "+33 4 67 64 53 99",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1939356260,
+      "lat": 48.8832197,
+      "lon": 2.5277675,
+      "tags": {
+        "contact:phone": "+33 1 43 00 82 52",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Gare",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1958261368,
+      "lat": 48.8956096,
+      "lon": 2.2503471,
+      "tags": {
+        "contact:phone": "+33 1 43 34 30 61",
+        "diet:halal": "yes",
+        "name": "La Ferme de Courbevoie",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "ref:FR:SIRET": "81267785400018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2003826622,
+      "lat": 43.5812221,
+      "lon": 7.1228101,
+      "tags": {
+        "check_date": "2025-05-02",
+        "contact:housenumber": "12",
+        "contact:street": "Rue Championnet",
+        "diet:halal": "yes",
+        "name": "À l'Aube de l'Islam",
+        "phone": "+33 4 93 34 77 33",
+        "ref:FR:SIRET": "39061394100058",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2028322667,
+      "lat": 43.2935891,
+      "lon": 5.3857011,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Viandes Center",
+        "ref:FR:SIRET": "49456260600017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2036135667,
+      "lat": 43.2936818,
+      "lon": 5.3858871,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Steak Paradis",
+        "name:oc": "Lo Paradís dau Bistèc",
+        "ref:FR:SIRET": "53418532700028",
+        "shop": "butcher",
+        "source:name:oc": "ieo-bdtopoc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2051822392,
+      "lat": 48.9461045,
+      "lon": 2.2328926,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2079142114,
+      "lat": 45.7565838,
+      "lon": 4.7817717,
+      "tags": {
+        "contact:housenumber": "56",
+        "contact:street": "Avenue Général Brosset",
+        "diet:halal": "only",
+        "name": "Boucherie de Tassin",
+        "shop": "butcher",
+        "was:name": "Orka",
+        "was:phone": "+33 4 78 25 50 44",
+        "was:shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2085149346,
+      "lat": 46.7965064,
+      "lon": 4.8635739,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2099616238,
+      "lat": 45.1784546,
+      "lon": 5.7499677,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Numidie",
+        "opening_hours": "Tu-Fr,Su 09:00-13:00, 15:00-19:00; Sa 09:00-19:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "41168349300018",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2102107084,
+      "lat": 45.7791642,
+      "lon": 4.8048147,
+      "tags": {
+        "check_date:opening_hours": "2025-07-15",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "name": "La Boucherie du Métro",
+        "opening_hours": "Mo-Sa 08:30-19:30",
+        "ref:FR:SIRET": "82760632800017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2110582689,
+      "lat": 44.3671831,
+      "lon": 2.594598,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Boulevard des Capucines",
+        "butcher": "halal",
+        "diet:halal": "only",
+        "disused:shop": "bakery",
+        "name": "Deliviande",
+        "old_name": "Boulangerie Sarret",
+        "ref:FR:SIRET": "84879482200033",
+        "shop": "butcher",
+        "source": "survey 2021",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2122702308,
+      "lat": 48.8272341,
+      "lon": 2.3065067,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Chayma",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2137283238,
+      "lat": 49.1835287,
+      "lon": -0.3688045,
+      "tags": {
+        "contact:housenumber": "4",
+        "contact:street": "Rue Pémagnie",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Saint-Sauveur",
+        "opening_hours": "Tu-Th,Sa 09:00-13:00,16:00-19:00; Fr 08:00-13:00,16:00-19:00",
+        "ref:FR:SIRET": "91756054200024",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2146484338,
+      "lat": 45.1886867,
+      "lon": 5.7098351,
+      "tags": {
+        "check_date": "2026-01-24",
+        "diet:halal": "yes",
+        "name": "Boucherie Boudoudou",
+        "ref:FR:SIRET": "89341525700011",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2163427429,
+      "lat": 45.189197,
+      "lon": 5.6974777,
+      "tags": {
+        "check_date": "2026-03-21",
+        "check_date:diet:halal": "2026-03-21",
+        "check_date:opening_hours": "2026-03-21",
+        "diet:halal": "yes",
+        "name": "Boucherie du Tram",
+        "opening_hours": "Tu-Fr 08:00-12:30,15:00-19:00; Sa 08:30-13:00,15:00-19:00",
+        "ref:FR:SIRET": "84534967900017",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2166710746,
+      "lat": 48.8810652,
+      "lon": 2.2382511,
+      "tags": {
+        "check_date": "2024-11-09",
+        "diet:halal": "yes",
+        "name": "Boucherie du Centre",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2177128638,
+      "lat": 45.1882547,
+      "lon": 5.7135733,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Belhacini",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "ref:FR:SIRET": "80074514300019",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2184507409,
+      "lat": 48.8229281,
+      "lon": 2.3579998,
+      "tags": {
+        "check_date": "2024-03-19",
+        "diet:halal": "yes",
+        "name": "Boucherie Tadfousse",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2191750647,
+      "lat": 48.8153387,
+      "lon": 2.3603213,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "A la Renommée",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2197417204,
+      "lat": 48.831072,
+      "lon": 2.3165259,
+      "tags": {
+        "check_date": "2025-04-05",
+        "diet:halal": "yes",
+        "name": "Boucherie SMR d'Alésia",
+        "shop": "butcher",
+        "wheelchair": "limited",
+        "wheelchair:description:fr": "Boutique de plain-pied mais pas de guichet bas."
+      }
+    },
+    {
+      "type": "node",
+      "id": 2204906216,
+      "lat": 45.7520795,
+      "lon": 4.8440779,
+      "tags": {
+        "check_date": "2025-08-30",
+        "check_date:opening_hours": "2025-08-30",
+        "diet:halal": "yes",
+        "name": "Boucherie Djemai",
+        "opening_hours": "Tu-Sa 08:30-13:00,15:00-19:30, Sa 08:30-19:30, Su 08:30-13:30",
+        "organic": "no",
+        "ref:FR:SIRET": "84477214500018",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2212084414,
+      "lat": 45.7562731,
+      "lon": 4.8461804,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie de L'Avenir",
+        "ref:FR:SIRET": "38883146300020",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2212084417,
+      "lat": 45.7564205,
+      "lon": 4.8453566,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Chez Meddah",
+        "ref:FR:SIRET": "48463843200027",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2212507926,
+      "lat": 45.7559993,
+      "lon": 4.8456949,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie de L'Orient",
+        "ref:FR:SIRET": "39004261200015",
+        "shop": "butcher",
+        "survey:date": "2020-11-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2242909196,
+      "lat": 45.7541692,
+      "lon": 4.8417676,
+      "tags": {
+        "contact:housenumber": "6",
+        "diet:halal": "yes",
+        "name": "Boucherie Bachir",
+        "phone": "+33 4 78 61 16 70",
+        "ref:FR:SIRET": "92267533500017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2247186010,
+      "lat": 48.8902265,
+      "lon": 2.3605416,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Riquet Viandes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2258768698,
+      "lat": 48.8276124,
+      "lon": 2.3069857,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Atlas",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2267078073,
+      "lat": 48.8902732,
+      "lon": 2.3613767,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Ibrahim",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2268172139,
+      "lat": 45.1876522,
+      "lon": 5.7149421,
+      "tags": {
+        "check_date": "2026-03-16",
+        "check_date:opening_hours": "2023-08-26",
+        "diet:halal": "yes",
+        "name": "Boucherie Baraka",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "51786638000010",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2273249439,
+      "lat": 48.8417577,
+      "lon": 2.2814852,
+      "tags": {
+        "contact:city": "Paris",
+        "contact:housenumber": "169",
+        "contact:phone": "+33 1 45 57 75 77",
+        "contact:postcode": "75015",
+        "contact:street": "Rue Saint-Charles",
+        "diet:halal": "only",
+        "name": "Boucherie Chayma",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2288232099,
+      "lat": 43.5902834,
+      "lon": 1.4453311,
+      "tags": {
+        "contact:housenumber": "129",
+        "contact:street": "Grande Rue Saint-Michel",
+        "diet:halal": "yes",
+        "name": "El Nour",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2289128184,
+      "lat": 47.2148444,
+      "lon": -1.554171,
+      "tags": {
+        "check_date": "2025-12-01",
+        "check_date:opening_hours": "2025-12-01",
+        "craft": "caterer",
+        "diet:halal": "only",
+        "name": "Boucherie El gaid",
+        "opening_hours:signed": "no",
+        "shop": "butcher",
+        "was:name": "Boucherie du Bouffay",
+        "was:shop": "butcher",
+        "wheelchair": "limited",
+        "wheelchair:description": "Seuil de 2 cm avant l'entrée"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2311064204,
+      "lat": 45.7743663,
+      "lon": 4.8680961,
+      "tags": {
+        "addr:city": "Villeurbanne",
+        "addr:country": "FR",
+        "addr:housenumber": "61",
+        "addr:postcode": "69100",
+        "addr:street": "Avenue Condorcet",
+        "check_date": "2025-06-07",
+        "check_date:opening_hours": "2025-06-07",
+        "diet:halal": "yes",
+        "mobile": "+33 6 70 96 17 31",
+        "name": "Boucherie Slimani",
+        "opening_hours": "Tu-Sa 08:00-13:00,15:30-19:30; Su 08:00-13:00",
+        "phone": "+33 4 78 93 62 23",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2321882991,
+      "lat": 48.8014778,
+      "lon": 2.3788914,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Salam",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2401504376,
+      "lat": 44.9145438,
+      "lon": -0.2446049,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Place Abel Surchamp",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Grollier (Boucherie Seignat)",
+        "opening_hours": "Tu-Sa 08:00-12:30,15:30-19:00; Su 08:00-12:30; PH closed",
+        "phone": "+33 5 57 51 31 83",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "801024167",
+        "ref:FR:SIRET": "80102416700018",
+        "shop": "butcher",
+        "source": "INSEE - 2025-01",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2406775916,
+      "lat": 44.916719,
+      "lon": -0.2371242,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Market Boucherie Halal",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2460246689,
+      "lat": 43.6109441,
+      "lon": 1.4387737,
+      "tags": {
+        "contact:housenumber": "6",
+        "contact:street": "Place Arnaud Bernard",
+        "diet:halal": "yes",
+        "name": "El-Rahma",
+        "phone": "+33561216184",
+        "ref:FR:SIRET": "48158998400014",
+        "shop": "butcher",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2466226896,
+      "lat": 45.1930525,
+      "lon": 5.729704,
+      "tags": {
+        "alt_name": "Boucherie de la Place aux Herbes",
+        "check_date": "2025-08-31",
+        "check_date:diet:halal": "2025-08-31",
+        "check_date:diet:kosher": "2025-08-31",
+        "check_date:opening_hours": "2025-01-25",
+        "diet:halal": "only",
+        "diet:kosher": "no",
+        "name": "Boucherie Boudoudou",
+        "opening_hours:signed": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "33326529600017",
+        "shop": "butcher",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2483591200,
+      "lat": 45.7566328,
+      "lon": 4.8439454,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/grandeboucheriedelaplace",
+        "diet:halal": "yes",
+        "name": "Grande Boucherie de la Place du Pont",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "+33 4 78 60 98 64",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2511318267,
+      "lat": 43.2964012,
+      "lon": 5.3796217,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Halal 123",
+        "ref:FR:SIRET": "49105345000020",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2513735664,
+      "lat": 48.8274692,
+      "lon": 2.3706917,
+      "tags": {
+        "contact:city": "Paris",
+        "contact:housenumber": "53",
+        "contact:postcode": "75013",
+        "contact:street": "Rue de Tolbiac",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "name": "Éric Nivot",
+        "opening_hours": "Tu-Fr 07:00-13:00,16:00-19:45; Sa 07:00-13:30,15:30-19:45; Su,Mo off",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2514493581,
+      "lat": 48.8767036,
+      "lon": 2.3445489,
+      "tags": {
+        "check_date": "2024-09-23",
+        "diet:halal": "only",
+        "name": "Halal Baraka",
+        "shop": "butcher",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2525414018,
+      "lat": 43.6107591,
+      "lon": 1.439439,
+      "tags": {
+        "contact:housenumber": "18",
+        "contact:street": "Place Arnaud Bernard",
+        "diet:halal": "yes",
+        "name": "Boucherie El Bahja",
+        "phone": "+33 5 61 21 78 27",
+        "ref:FR:SIRET": "84907147700012",
+        "shop": "butcher",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2567551495,
+      "lat": 45.7782335,
+      "lon": 4.8796104,
+      "tags": {
+        "check_date": "2024-12-12",
+        "diet:halal": "yes",
+        "internet_access": "no",
+        "name": "Le vaillant",
+        "phone": "+33 4 22 91 26 82",
+        "ref:FR:SIRET": "98409570300018",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2587457472,
+      "lat": 45.7617562,
+      "lon": 4.8979072,
+      "tags": {
+        "check_date:opening_hours": "2022-10-05",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "name": "Boucherie Charcuterie Fresh Market",
+        "ref:FR:SIRET": "88890121200017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2597595679,
+      "lat": 48.8257747,
+      "lon": 2.3417859,
+      "tags": {
+        "check_date:opening_hours": "2024-09-12",
+        "diet:halal": "yes",
+        "name": "Boucherie du plaisir",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2609752431,
+      "lat": 45.7563536,
+      "lon": 4.845983,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Rose d'Orient",
+        "ref:FR:SIRET": "79320748100029",
+        "shop": "butcher",
+        "survey:date": "2020-11-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2627812615,
+      "lat": 45.1116525,
+      "lon": 2.8684876,
+      "tags": {
+        "diet:halal": "no",
+        "name": "François Giraldon",
+        "opening_hours": "Tu-Sa 07:30-12:00,15:00-18:00; Su 08:30-12:30",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2753858906,
+      "lat": 48.6356916,
+      "lon": 2.3198495,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2764086311,
+      "lat": 45.8357407,
+      "lon": 1.2693884,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2776754205,
+      "lat": 45.840879,
+      "lon": 1.258171,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Aux Saveurs d'Orient",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2780307363,
+      "lat": 45.8277476,
+      "lon": 1.2614947,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2787397572,
+      "lat": 45.448508,
+      "lon": 4.3843979,
+      "tags": {
+        "check_date:opening_hours": "2024-03-27",
+        "diet:halal": "yes",
+        "name": "Carnot Viandes",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "75107916100012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2813031214,
+      "lat": 45.1879526,
+      "lon": 5.7185378,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "King Boucherie",
+        "organic": "no",
+        "ref:FR:SIRET": "98264892500013",
+        "shop": "butcher",
+        "source": "survey",
+        "survey:date": "2024-08-23",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2818222801,
+      "lat": 48.8288651,
+      "lon": 2.3015806,
+      "tags": {
+        "check_date:opening_hours": "2024-04-04",
+        "diet:halal": "yes",
+        "name": "Boucherie Brancion",
+        "opening_hours:signed": "no",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2847602903,
+      "lat": 48.8247845,
+      "lon": 2.3760252,
+      "tags": {
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "Boucherie Chamsi",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2924538157,
+      "lat": 48.807427,
+      "lon": 2.4726581,
+      "tags": {
+        "addr:city": "Saint-Maur-des-Fossés",
+        "addr:housenumber": "11",
+        "addr:postcode": "94100",
+        "addr:street": "Avenue Desgenettes",
+        "diet:halal": "yes",
+        "name": "Maison Ziane",
+        "phone": "+33611136501",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2940075172,
+      "lat": 48.8927147,
+      "lon": 2.4101154,
+      "tags": {
+        "addr:city": "Pantin",
+        "addr:housenumber": "111",
+        "addr:postcode": "93500",
+        "addr:street": "Avenue Jean Lolive",
+        "diet:halal": "yes",
+        "name": "Boucherie Salmi (halal)",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "phone": "+33 1 48 45 85 21",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2954724713,
+      "lat": 47.1031963,
+      "lon": 2.4107773,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2957843843,
+      "lat": 48.8742457,
+      "lon": 2.3749831,
+      "tags": {
+        "check_date": "2024-04-13",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Sodivillette",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "50205842300026",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2989832465,
+      "lat": 43.5921603,
+      "lon": 3.8841702,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Aswak Salam",
+        "ref:FR:SIRET": "84431836000014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3011023944,
+      "lat": 43.6225272,
+      "lon": 7.0468514,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Chez Loutfi",
+        "ref:FR:SIRET": "44180665000012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3022860749,
+      "lat": 43.429013,
+      "lon": 6.7585581,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Golf Orient Halal",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3076759309,
+      "lat": 49.0556133,
+      "lon": 2.0180287,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Tradivia",
+        "opening_hours": "We,Th 09:30-00:30,14:00-19:00, Fr,Sa 08:30-19:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3101632057,
+      "lat": 45.1575374,
+      "lon": 5.7241188,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Rue de Normandie",
+        "check_date": "2026-03-31",
+        "contact:phone": "+33 4 76 22 34 40",
+        "diet:halal": "only",
+        "name": "Boucherie Moussaoui",
+        "opening_hours": "Mo-Fr 09:00-13:00, 15:00-19:30; Sa 09:00-19:30",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3102381530,
+      "lat": 48.8921632,
+      "lon": 2.3813552,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Rue de Nantes",
+        "check_date": "2025-07-10",
+        "diet:halal": "yes",
+        "name": "Boucherie El Andalousse",
+        "phone": "+33 1 40 36 64 84",
+        "ref:FR:SIRET": "48321372400030",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3158102274,
+      "lat": 44.3587639,
+      "lon": 2.5814017,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Avenue Durand de Gros",
+        "diet:halal": "yes",
+        "name": "Boucherie du Soleil",
+        "ref:FR:SIRET": "90203964300017",
+        "shop": "butcher",
+        "source": "survey 2019",
+        "was:name": "La Palmeraie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3190825968,
+      "lat": 47.18669,
+      "lon": -1.5598643,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie de Monti",
+        "phone": "+33 2 40 84 33 82",
+        "ref:FR:SIRET": "50221348100018",
+        "shop": "butcher",
+        "website": "http://www.boucherie-du-monti.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3194400819,
+      "lat": 43.5792113,
+      "lon": 7.1195953,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Boulevard du Maréchal Foch",
+        "check_date": "2024-05-24",
+        "diet:halal": "only",
+        "name": "Marso",
+        "ref:FR:SIRET": "33476996500016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3219015199,
+      "lat": 43.4079478,
+      "lon": 5.054349,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Le limousin",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229785885,
+      "lat": 45.4392379,
+      "lon": 4.3964133,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Place Fourneyron",
+        "contact:phone": "+33 7 49 87 52 66",
+        "diet:halal": "only",
+        "name": "Chez Hakim",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3253198626,
+      "lat": 50.6347485,
+      "lon": 3.1078478,
+      "tags": {
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Boucherie de Mons",
+        "opening_hours": "Mo-Th,Sa 09:00-19:30; Fr 09:00-13:00,15:00-19:30; Su 09:00-14:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3339794226,
+      "lat": 48.879711,
+      "lon": 2.3492734,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Charcuterie",
+        "opening_hours": "Mo-Th 15:30-20:30, Tu-Th 08:30-13:30, Fr,Sa 08:30-20:30, Su 09:00-13:00",
+        "ref:FR:SIRET": "87786661600015",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3366437087,
+      "lat": 48.8715771,
+      "lon": 2.3778618,
+      "tags": {
+        "check_date:opening_hours": "2024-05-04",
+        "diet:halal": "no",
+        "diet:kosher": "yes",
+        "name": "Boucherie Henrino",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "32582707900014",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3371230466,
+      "lat": 48.8316324,
+      "lon": 2.3144197,
+      "tags": {
+        "addr:city": "Paris",
+        "addr:housenumber": "205",
+        "addr:postcode": "75014",
+        "addr:street": "Rue d'Alésia",
+        "diet:halal": "only",
+        "diet:kosher": "no",
+        "name": "Boucherie Ath Douala",
+        "opening_hours": "Mo-Su 08:00-20:30",
+        "phone": "+33 1 45 39 23 38",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390421563,
+      "lat": 45.4479679,
+      "lon": 4.3845656,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Le Carré Frais",
+        "ref:FR:SIRET": "91536627200010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3409087764,
+      "lat": 48.8864288,
+      "lon": 2.3262504,
+      "tags": {
+        "check_date": "2024-03-10",
+        "diet:halal": "yes",
+        "name": "Boucherie d'Agadir",
+        "phone": "+33 1 45 22 27 19",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3439716982,
+      "lat": 43.6772238,
+      "lon": 4.1348114,
+      "tags": {
+        "addr:city": "Lunel",
+        "addr:housenumber": "245",
+        "addr:postcode": "34400",
+        "addr:street": "Boulevard Lafayette",
+        "contact:facebook": "https://www.facebook.com/Boucherie-La-Palmeraie-Lunel-731876440200022",
+        "diet:halal": "yes",
+        "email": "lapalmeraielunel@gmail.com",
+        "name": "La Palmeraie",
+        "opening_hours": "08:30-20:00",
+        "phone": "+33 4 67 65 04 27",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3609666683,
+      "lat": 47.204362,
+      "lon": -1.5479326,
+      "tags": {
+        "check_date:opening_hours": "2024-12-20",
+        "contact:city": "Nantes",
+        "contact:country": "FR",
+        "contact:housenumber": "9",
+        "contact:postcode": "44200",
+        "contact:street": "Rue Petite Biesse",
+        "diet:halal": "yes",
+        "mapillary": "152146046918589",
+        "name": "Boucherie Berga",
+        "opening_hours": "Tu-Sa 09:00-18:30; Mo 09:00-15:30; Su 09:00-16:00",
+        "post_office": "post_partner",
+        "post_office:brand": "Pickup",
+        "post_office:parcel_pickup": "yes",
+        "post_office:service_provider": "Chronopost",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3672469569,
+      "lat": 43.6772267,
+      "lon": 4.1362507,
+      "tags": {
+        "addr:city": "Lunel",
+        "addr:housenumber": "30",
+        "addr:postcode": "34400",
+        "addr:street": "Boulevard de Strasbourg",
+        "diet:halal": "yes",
+        "name": "Boucherie Halal de Lunel",
+        "opening_hours": "Mo-Fr 08:00-13:00,15:00-20:00; Sa-Su 08:00-20:00",
+        "phone": "+33 9 73 54 43 10",
+        "ref:FR:SIRET": "78927998100011",
+        "shop": "butcher",
+        "source": "INSEE - 2021-05"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3704121927,
+      "lat": 48.8838104,
+      "lon": 2.359058,
+      "tags": {
+        "check_date": "2026-03-05",
+        "check_date:diet:halal": "2026-03-05",
+        "contact:city": "Paris",
+        "contact:housenumber": "207",
+        "contact:phone": "+33 1 46 07 46 35",
+        "contact:postcode": "75010",
+        "contact:street": "Rue du Faubourg Saint-Denis",
+        "diet:halal": "only",
+        "level": "0",
+        "name": "Gabarina",
+        "ref:FR:SIRET": "40290948500011",
+        "shop": "butcher",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3710534480,
+      "lat": 49.2023642,
+      "lon": -0.336534,
+      "tags": {
+        "contact:housenumber": "10",
+        "contact:street": "Avenue de la Grande Cavée",
+        "diet:halal": "yes",
+        "name": "Boucherie Anadolu",
+        "phone": "+33 2 31 74 42 93",
+        "ref:FR:SIRET": "92200000500012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3711923938,
+      "lat": 49.4130972,
+      "lon": 2.1176195,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Rue Arago",
+        "diet:halal": "yes",
+        "name": "Boucherie QFD",
+        "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-14:30",
+        "phone": "+33 3 44 05 23 93",
+        "ref:FR:SIRET": "85043985200011",
+        "shop": "butcher",
+        "website": "https://www.boucherie-qfd.fr/beauvais.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3720693227,
+      "lat": 41.5864222,
+      "lon": 9.2759726,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "La Petite Boucherie",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3784813966,
+      "lat": 48.0671682,
+      "lon": -0.7874676,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Rue du Docteur Roux",
+        "diet:halal": "yes",
+        "name": "Boucherie des Fourches",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3801251358,
+      "lat": 49.4361271,
+      "lon": 1.0841655,
+      "tags": {
+        "addr:housenumber": "66",
+        "addr:street": "Boulevard d'Orléans",
+        "diet:halal": "yes",
+        "name": "Boucherie",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+33 2 35 70 84 31",
+        "ref:FR:SIRET": "90071898200037",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3835952145,
+      "lat": 45.3328918,
+      "lon": 5.4844439,
+      "tags": {
+        "addr:city": "Renage",
+        "addr:housenumber": "15",
+        "addr:postcode": "38140",
+        "addr:street": "Boulevard Docteur Valois",
+        "diet:halal": "only",
+        "name": "Oz Boucherie",
+        "opening_hours": "Tu-Fr 08:00-12:00,15:00-19:00; Sa 08:00-12:30,15:00-19:00; Su 08:00-13:00",
+        "phone": "+33476063678",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3844346135,
+      "lat": 45.1703525,
+      "lon": 5.739829,
+      "tags": {
+        "addr:floor": "0",
+        "air_conditioning": "no",
+        "butcher": "horse",
+        "check_date": "2025-05-28",
+        "check_date:opening_hours": "2025-05-28",
+        "currency:EUR": "yes",
+        "diet:halal": "no",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Boucherie Chevaline",
+        "opening_hours": "Tu-Sa 07:00-12:30,15:30-19:30",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "ref:FR:SIRET": "47797769800018",
+        "shop": "butcher",
+        "source": "survey",
+        "stroller": "no",
+        "toilets": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3844346138,
+      "lat": 45.1700591,
+      "lon": 5.7399849,
+      "tags": {
+        "addr:floor": "0",
+        "butcher": "beef;lamb;pork;veal",
+        "check_date": "2024-03-23",
+        "contact:facebook": "https://fr-fr.facebook.com/pages/category/Product-Service/Boucherie-Malherbe-BIO-432940753787007/",
+        "contact:phone": "+33 476 257 605",
+        "diet:halal": "no",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Boucherie Malherbe",
+        "opening_hours": "Mo-Sa 07:30-12:20,15:00-19:00; Su 08:00-12:30",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "47797769800018",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3894136025,
+      "lat": 45.6910618,
+      "lon": 4.9472986,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie, Traiteur",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3975063036,
+      "lat": 48.870986,
+      "lon": 2.3528968,
+      "tags": {
+        "check_date": "2026-03-16",
+        "contact:city": "Paris",
+        "contact:housenumber": "3",
+        "contact:postcode": "75010",
+        "contact:street": "Rue de l'Échiquier",
+        "diet:halal": "yes",
+        "name": "Pamuk",
+        "operator": "Pamuk Sélim",
+        "phone": "+33 1 48 24 96 33",
+        "ref:FR:SIRET": "49509245400018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3980379938,
+      "lat": 43.5768667,
+      "lon": 1.4406174,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "El Morchid",
+        "name:fr": "El Morchid",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4074155348,
+      "lat": 48.0916012,
+      "lon": -1.6817794,
+      "tags": {
+        "addr:city": "Rennes",
+        "addr:housenumber": "9",
+        "addr:postcode": "35200",
+        "addr:street": "Square Sarah Bernhardt",
+        "diet:halal": "only",
+        "name": "Boucherie Populaire",
+        "opening_hours": "We-Mo 09:00-20:00",
+        "phone": "+33 2 99 50 94 75",
+        "ref:FR:SIRET": "88220614700010",
+        "shop": "butcher",
+        "source:addr": "Rennes Métropole",
+        "source:addr:housenumber:ref": "67325",
+        "source:addr:version": "2016-04-01",
+        "website": "https://www.boucheriepopulairehalal.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4131425489,
+      "lat": 47.9648457,
+      "lon": 0.2014117,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie des 24 heures",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-19:00",
+        "ref:FR:SIRET": "91937538600019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4139280690,
+      "lat": 46.1691878,
+      "lon": -1.1698767,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "halal Viande",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4235436548,
+      "lat": 45.4349809,
+      "lon": 4.3825873,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie 3e Millénaire",
+        "ref:FR:SIRET": "50905546300012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4235436549,
+      "lat": 45.4353671,
+      "lon": 4.3828031,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Beaubrun",
+        "ref:FR:SIRET": "40024626000014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4235453270,
+      "lat": 45.4344771,
+      "lon": 4.3824682,
+      "tags": {
+        "alt_name": "Maison Touati",
+        "diet:halal": "only",
+        "name": "Boucherie de la Place",
+        "ref:FR:SIRET": "82382729000011",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4242004264,
+      "lat": 48.8708218,
+      "lon": 2.4871907,
+      "tags": {
+        "check_date:opening_hours": "2024-09-14",
+        "contact:phone": "+33 1 48 94 33 01",
+        "diet:halal": "yes",
+        "name": "Boucherie de La Gare",
+        "opening_hours:signed": "no",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4306351670,
+      "lat": 45.4362896,
+      "lon": 4.384856,
+      "tags": {
+        "check_date:opening_hours": "2025-01-08",
+        "diet:halal": "yes",
+        "name": "Boucherie de l'Orient",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "53170764400021",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4323503789,
+      "lat": 45.178416,
+      "lon": 5.7305112,
+      "tags": {
+        "alt_name": "G Santa",
+        "check_date": "2024-02-02",
+        "diet:halal": "no",
+        "name": "Fromagerie Charcuterie G Santa",
+        "opening_hours": "Tu-Th 08:45-12:15,15:45-19:00; Fr-Sa 08:00-12:30,15:00-19:00; Su 08:00-12:30",
+        "ref:FR:SIRET": "82898737000016",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4341202922,
+      "lat": 48.9019289,
+      "lon": 2.2433093,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie de Courbevoie",
+        "opening_hours": "Mo-Su 08:00-20:00; Fr 08:00-13:00,15:00-20:00",
+        "ref:FR:SIRET": "81182602300012",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356310354,
+      "lat": 48.8406332,
+      "lon": 2.6531939,
+      "tags": {
+        "addr:city": "Torcy",
+        "addr:housenumber": "18",
+        "addr:postcode": "77200",
+        "addr:street": "Promenade du Belvédère",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Gare",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4358939708,
+      "lat": 48.5136292,
+      "lon": -2.7481711,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Halal Balzac",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4360304298,
+      "lat": 48.9021444,
+      "lon": 2.3027861,
+      "tags": {
+        "addr:housenumber": "64",
+        "check_date": "2026-03-14",
+        "diet:halal": "yes",
+        "name": "Boucherie Jouna",
+        "name:fr": "Boucherie Jouna",
+        "phone": "+33 1 47 37 60 75",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4383024790,
+      "lat": 42.5864337,
+      "lon": 9.0179031,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4416201809,
+      "lat": 48.827921,
+      "lon": 2.3711858,
+      "tags": {
+        "check_date": "2024-03-25",
+        "check_date:opening_hours": "2024-03-29",
+        "diet:halal": "only",
+        "level": "0",
+        "name": "Boucherie Adrad",
+        "opening_hours:signed": "no",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4496770219,
+      "lat": 45.180979,
+      "lon": 5.7284969,
+      "tags": {
+        "check_date": "2026-02-19",
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "Boucherie Hadj",
+        "opening_hours": "off",
+        "ref:FR:SIRET": "88795539100016",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4523975189,
+      "lat": 45.180289,
+      "lon": 5.7064668,
+      "tags": {
+        "addr:city": "Grenoble",
+        "addr:housenumber": "56",
+        "addr:postcode": "38000",
+        "addr:street": "Boulevard Joseph Vallier",
+        "check_date:opening_hours": "2025-07-25",
+        "contact:phone": "+33 4 76 96 36 92",
+        "contact:website": "http://www.boucherie-remy.fr",
+        "diet:halal": "no",
+        "level": "0",
+        "name": "Boucherie Rémy",
+        "opening_hours": "Tu-Sa 07:00-13:00,15:00-19:30; Su 07:00-12:30",
+        "ref:FR:SIRET": "43339898900015",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4553652457,
+      "lat": 49.4337965,
+      "lon": 1.0884468,
+      "tags": {
+        "contact:city": "Rouen",
+        "contact:housenumber": "54",
+        "contact:postcode": "76100",
+        "contact:street": "Rue Saint-Sever",
+        "diet:halal": "only",
+        "name": "Boucherie Market",
+        "opening_hours": "Apr-Sep: Mo-Sa 09:00-21:00",
+        "payment:cash": "yes",
+        "phone": "+33 2 32 83 32 02",
+        "ref:FR:SIRET": "81024966400022",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4555987941,
+      "lat": 48.9147378,
+      "lon": 2.3829905,
+      "tags": {
+        "check_date": "2024-07-13",
+        "contact:phone": "+33 1 48 39 21 32",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Mairie",
+        "ref:FR:SIRET": "90520432700019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4679804133,
+      "lat": 49.7001168,
+      "lon": 4.9467997,
+      "tags": {
+        "diet:halal": "no",
+        "name": "Boucherie Turenne",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4680536554,
+      "lat": 48.8704811,
+      "lon": 2.3531927,
+      "tags": {
+        "check_date": "2026-03-16",
+        "contact:city": "Paris",
+        "contact:housenumber": "14",
+        "contact:postcode": "75010",
+        "contact:street": "Rue du Faubourg Saint-Denis",
+        "diet:halal": "yes",
+        "name": "Boucherie La Tulipe",
+        "ref:FR:SIRET": "44910267200010",
+        "shop": "butcher",
+        "source": "survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4694328761,
+      "lat": 44.5553899,
+      "lon": -0.2479272,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4714687075,
+      "lat": 45.6941503,
+      "lon": 4.9382588,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738208096,
+      "lat": 47.2854065,
+      "lon": 5.0101181,
+      "tags": {
+        "contact:phone": "+33 3 45 49 49 10",
+        "diet:halal": "yes",
+        "name": "Le Garçon Boucher",
+        "opening_hours": "Mo-Su 09:00-19:30",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4811398321,
+      "lat": 47.2011276,
+      "lon": -1.5456337,
+      "tags": {
+        "craft": "caterer",
+        "description": "Boucherie, rotisserie, alimentation exotique",
+        "diet:halal": "only",
+        "name": "Boucherie Jazar",
+        "note": "Travaux en cours",
+        "opening_hours": "off",
+        "ref:FR:SIRET": "82755788500015",
+        "shop": "butcher",
+        "survey:date": "2025-11-15",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4821072660,
+      "lat": 45.7589522,
+      "lon": 4.8885483,
+      "tags": {
+        "check_date:opening_hours": "2025-06-11",
+        "diet:halal": "yes",
+        "name": "Boucherie Grandclément",
+        "opening_hours": "Mo-Th 09:00-19:30; Fr 09:00-13:00,15:00-19:30; Sa 09:00-19:30; Su 09:00-14:00",
+        "ref:FR:SIRET": "82364678100018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4821072666,
+      "lat": 45.7585824,
+      "lon": 4.8909569,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Delice",
+        "opening_hours": "Tu-Su 08:30-13:30,15:30-19:30",
+        "ref:FR:SIRET": "91038640800017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4821072667,
+      "lat": 45.7587585,
+      "lon": 4.8909195,
+      "tags": {
+        "diet:halal": "no",
+        "name": "E&A",
+        "opening_hours": "Mo,Tu,Th,Fr 08:00-12:30,15:30-19:00; Sa,Su 08:00-12:30",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "52483031200012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4822981782,
+      "lat": 45.7559359,
+      "lon": 4.8908663,
+      "tags": {
+        "check_date": "2024-12-30",
+        "diet:halal": "only",
+        "name": "Boucherie du tram",
+        "ref:FR:SIRET": "48839256400016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4840140646,
+      "lat": 45.7638677,
+      "lon": 4.8706695,
+      "tags": {
+        "diet:halal": "no",
+        "name": "B. Dufour",
+        "opening_hours": "Tu-Th 06:30-12:30,15:30-19:00; Fr 06:30-19:00; Sa 06:30-13:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "83352340000012",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4842465827,
+      "lat": 48.8533596,
+      "lon": 2.470055,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4880644624,
+      "lat": 48.8700516,
+      "lon": 2.3526588,
+      "tags": {
+        "check_date": "2026-03-16",
+        "contact:city": "Paris",
+        "contact:housenumber": "3",
+        "contact:postcode": "75010",
+        "contact:street": "Rue du Faubourg Saint-Denis",
+        "diet:halal": "yes",
+        "name": "Boucherie Beni Douala",
+        "name:fr": "Boucherie du faubourg",
+        "ref:FR:SIRET": "82955405400017",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4935945947,
+      "lat": 45.1634963,
+      "lon": 5.7325707,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4970819681,
+      "lat": 48.8961536,
+      "lon": 2.3282839,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Viande d'Exception",
+        "ref:FR:SIRET": "82494970500019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5048509703,
+      "lat": 47.3183777,
+      "lon": 5.0040981,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Mondiale Viande",
+        "opening_hours": "Mo 10:00-12:00,15:00-19:00; Tu-Sa 09:00-12:00,15:00-19:00; Su 09:00-12:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5052214261,
+      "lat": 43.6772758,
+      "lon": 4.1354047,
+      "tags": {
+        "addr:city": "Lunel",
+        "addr:housenumber": "297",
+        "addr:postcode": "34400",
+        "addr:street": "Boulevard Lafayette",
+        "diet:halal": "yes",
+        "name": "Boucherie du Sud",
+        "phone": "+33 9 50 62 72 84",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5065698890,
+      "lat": 46.1943705,
+      "lon": 6.2381848,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Avenue Jules Ferry",
+        "diet:halal": "yes",
+        "name": "The Butcher",
+        "old_name": "Chez Yassin",
+        "phone": "+33 4 50 92 24 80",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "892711615",
+        "ref:FR:SIRET": "89271161500013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5115994782,
+      "lat": 45.1693809,
+      "lon": 5.7234411,
+      "tags": {
+        "contact:phone": "+33 4 38 49 21 19;+33 6 08 61 39 90",
+        "diet:halal": "yes",
+        "name": "Le Tassili",
+        "ref:FR:SIRET": "42960987800013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5127232965,
+      "lat": 50.7357703,
+      "lon": 1.6092227,
+      "tags": {
+        "addr:city": "Boulogne-sur-Mer",
+        "addr:housenumber": "21",
+        "addr:postcode": "62200",
+        "addr:street": "Place Vignon",
+        "diet:halal": "yes",
+        "name": "L'étoile de Boulogne",
+        "opening_hours": "Mo-Fr 09:00-12:30,14:30-20:00; Sa 8:00-20:00; Su 09:00-13:00,15:00-20:00",
+        "phone": "+33321105920",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5137413129,
+      "lat": 43.2938778,
+      "lon": 5.5691749,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Avenue Elzeard Rougier",
+        "diet:halal": "yes",
+        "name": "Maïssa et les Délices",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "804479715",
+        "ref:FR:SIRET": "80447971500018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5140979389,
+      "lat": 48.6895061,
+      "lon": 2.3763782,
+      "tags": {
+        "addr:city": "Juvisy-sur-Orge",
+        "addr:postcode": "91260",
+        "addr:street": "Rue Paul Marais",
+        "diet:halal": "only",
+        "name": "Boucherie Kabira",
+        "opening_hours": "Mo-Sa 09:00-13:30, 15:00-19:30; Mo-Su off",
+        "phone": "+33 1 69 45 39 96",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5204547121,
+      "lat": 48.7884819,
+      "lon": 2.3130168,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Halal",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5226936767,
+      "lat": 45.6129408,
+      "lon": 5.2236772,
+      "tags": {
+        "check_date": "2025-08-08",
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "#Allô Boucher",
+        "ref:FR:SIRET": "92860920500028",
+        "shop": "butcher",
+        "website": "https://www.allo-boucher.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5263977391,
+      "lat": 43.2931225,
+      "lon": 5.5656945,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Avenue Joseph Fallen",
+        "diet:halal": "yes",
+        "name": "Boucherie Charcuterie les Coquieres",
+        "opening_hours": "Mo-Su 07:00-19:30",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "348672163",
+        "ref:FR:SIRET": "34867216300014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5264038777,
+      "lat": 43.2922526,
+      "lon": 5.5698137,
+      "tags": {
+        "contact:housenumber": "8",
+        "contact:street": "Boulevard Jean Jaurès",
+        "diet:halal": "yes",
+        "name": "Boucherie de l'Orient",
+        "opening_hours": "Tu-Sa 8:00-12:00, 14:00-19:00, Su 8:00-12:00",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "822339644",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305859413,
+      "lat": 45.755632,
+      "lon": 4.8767379,
+      "tags": {
+        "alt_name": "Boucherie Baya",
+        "check_date": "2023-06-08",
+        "diet:halal": "yes",
+        "name": "Boucherie Hallal des Maisons Neuves",
+        "opening_hours": "Fr 09:00-13:00,15:00-20:00; Tu-Th,Sa,Su 09:00-20:00",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325754258,
+      "lat": 50.6258681,
+      "lon": 3.0491158,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Ennasr",
+        "shop": "butcher",
+        "survey:date": "2021-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325754259,
+      "lat": 50.6257921,
+      "lon": 3.0491714,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/Boucheriemarketplacewzm/",
+        "contact:phone": "+33 3 59 51 31 40",
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Boucherie Market Place",
+        "opening_hours": "Mo-Sa 09:30-12:30,15:00-18:30; Su 09:30-14:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5332029329,
+      "lat": 45.91555,
+      "lon": 6.1383342,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Renmans",
+        "opening_hours": "Tu-Sa 08:00-13:00,16:00-19:00",
+        "organic": "yes",
+        "shop": "butcher",
+        "survey:date": "2024-04-17",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363971759,
+      "lat": 45.197521,
+      "lon": 5.6936864,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Rue Jean Pain",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Bastille",
+        "opening_hours": "Tu-Th 08:00-13:00,15:00-19:30; Fr 08:00-12:30,15:00-19:30; Sa,Su 08:00-19:30",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5364315042,
+      "lat": 48.0904698,
+      "lon": -1.6677005,
+      "tags": {
+        "addr:city": "Rennes",
+        "addr:housenumber": "6",
+        "addr:postcode": "35200",
+        "addr:street": "Rue de la Binquenais",
+        "diet:halal": "only",
+        "name": "Salama",
+        "payment:cash": "yes",
+        "phone": "+33 2 23 30 77 23",
+        "ref:FR:SIRET": "81380407700028",
+        "shop": "butcher",
+        "shop_1": "deli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5418984724,
+      "lat": 48.9081255,
+      "lon": 2.3327306,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Saada",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5469033291,
+      "lat": 45.4414936,
+      "lon": 4.4164985,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Steel",
+        "ref:FR:SIRET": "94137667500018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5543133057,
+      "lat": 46.0969808,
+      "lon": 3.4463395,
+      "tags": {
+        "check_date": "2025-09-02",
+        "check_date:diet:halal": "2025-09-02",
+        "check_date:diet:kosher": "2025-09-02",
+        "contact:city": "Abrest",
+        "contact:facebook": "https://www.facebook.com/boucherierabouteau/",
+        "contact:housenumber": "17",
+        "contact:postcode": "03200",
+        "contact:street": "Avenue de Thiers",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Charcuterie Rabouteau",
+        "opening_hours": "Tu-Sa 07:15-13:00,16:00-19:30",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "830580585",
+        "ref:FR:SIRET": "83058058500016",
+        "shop": "butcher",
+        "source": "survey",
+        "start_date": "2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5595220002,
+      "lat": 48.805865,
+      "lon": 2.6175638,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "L'Étoile d'Afrique",
+        "ref:FR:SIRET": "80484026200013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5637902286,
+      "lat": 45.469766,
+      "lon": 4.5146263,
+      "tags": {
+        "addr:city": "Saint-Chamond",
+        "addr:housenumber": "15",
+        "addr:postcode": "42400",
+        "addr:street": "Place de la République",
+        "contact:facebook": "https://www.facebook.com/p/Boucherie-de-La-Valette-100057397571708/",
+        "contact:phone": "+33 4 77 22 03 34",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie de la Valette",
+        "opening_hours": "Mo-Fr 05:00-12:45,15:00-19:00; Sa 05:00-14:00",
+        "ref:FR:SIRET": "52762786300022",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5679981283,
+      "lat": 43.5494814,
+      "lon": 6.9759999,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Les 2 Frères",
+        "ref:FR:SIRET": "80174368300022",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5695479305,
+      "lat": 47.6406272,
+      "lon": 6.8414663,
+      "tags": {
+        "alt_name": "Chez Coskun Abi",
+        "contact:facebook": "coskunabii",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 9 51 99 39 79",
+        "contact:street": "Boulevard Anatole France",
+        "diet:halal": "only",
+        "name": "Boucherie du Boulevard",
+        "opening_hours": "Tu-Fr 09:00-12:30,14:30-19:00; Sa 09:00-19:00; Su 09:00-14:00",
+        "ref:FR:SIRET": "50768969300012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5779865991,
+      "lat": 45.1852966,
+      "lon": 0.7125202,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "L'Etoile du Sud",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5823579008,
+      "lat": 45.7169102,
+      "lon": 4.8188886,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Chez Karim",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5864538355,
+      "lat": 47.3124433,
+      "lon": 5.0096114,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Charcuterie Halal Eiffel",
+        "phone": "+33 3 80 36 21 31",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5907261191,
+      "lat": 45.1955544,
+      "lon": 5.6888453,
+      "tags": {
+        "check_date": "2025-08-06",
+        "diet:halal": "yes",
+        "name": "Boucherie du marché",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936805085,
+      "lat": 47.2133437,
+      "lon": -1.5347991,
+      "tags": {
+        "brand": "Baker market",
+        "brand:website": "https://www.bakermarket.fr",
+        "contact:phone": "+33 2 28 08 85 21",
+        "diet:halal": "yes",
+        "name": "Baker market",
+        "opening_hours": "Tu-Sa 09:00-12:30,14:00-18:30",
+        "shop": "butcher",
+        "survey:date": "2022-12-26",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5981745085,
+      "lat": 48.7854537,
+      "lon": 2.3313915,
+      "tags": {
+        "diet:halal": "yes",
+        "halal": "yes",
+        "name": "Boucherie de la Plaine",
+        "opening_hours": "Tu-Sa 09:00-20:00; Su 09:00-19:30",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "92141349800012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5983927090,
+      "lat": 43.1224954,
+      "lon": 6.1308234,
+      "tags": {
+        "addr:city": "Hyères",
+        "addr:housenumber": "2",
+        "addr:postcode": "83400",
+        "addr:street": "Avenue Paul Long",
+        "diet:halal": "only",
+        "name": "Nasri Chez Brahim",
+        "ref:FR:SIRET": "48286485700016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6027364725,
+      "lat": 45.4661308,
+      "lon": 4.3794277,
+      "tags": {
+        "contact:email": "contact@boucheriesolmona.fr",
+        "contact:facebook": "https://www.facebook.com/BoucherieSolmona/",
+        "diet:halal": "no",
+        "name": "Les Frères Salmona",
+        "opening_hours": "Mo-Fr 07:00-12:45,15:00-19:00; Sa 07:00-12:45",
+        "phone": "+33 4 77 74 34 23",
+        "ref:FR:SIRET": "84080970100013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6149992442,
+      "lat": 47.2080891,
+      "lon": -1.6113389,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Orientale",
+        "opening_hours": "off",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6168004486,
+      "lat": 45.8964757,
+      "lon": 4.4356877,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Hallal Saveur",
+        "phone": "+33 9 50 91 18 30",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6178442883,
+      "lat": 45.7502786,
+      "lon": 5.1853504,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Maison Cherifi",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6219037840,
+      "lat": 48.9271049,
+      "lon": 2.2733833,
+      "tags": {
+        "addr:city": "Asnières-sur-Seine",
+        "addr:postcode": "92600",
+        "addr:street": "Avenue de la Redoute",
+        "amenity": "fast_food",
+        "cuisine": "rotisserie",
+        "diet:halal": "yes",
+        "name": "Boucherie au Bon Goût",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6284553166,
+      "lat": 48.9178683,
+      "lon": 2.3325366,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Wakil",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6327392105,
+      "lat": 47.1934491,
+      "lon": -1.5467353,
+      "tags": {
+        "check_date": "2025-06-08",
+        "contact:phone": "+33 2 53 97 36 61",
+        "diet:halal": "yes",
+        "name": "Boucherie du Confluent",
+        "opening_hours": "Tu-Fr 09:00-12:45,15:00-19:30; Th off; Sa 09:00-19:00; Su 09:00-13:00",
+        "organic": "yes",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "981424872",
+        "ref:FR:SIRET": "98142487200019",
+        "shop": "butcher",
+        "source": "INSEE - 2025-08",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6338361086,
+      "lat": 48.8723555,
+      "lon": 2.3981205,
+      "tags": {
+        "contact:city": "Paris",
+        "contact:housenumber": "2",
+        "contact:phone": "+33 1 43 49 07 09",
+        "contact:postcode": "75020",
+        "contact:street": "Rue du Borrégo",
+        "diet:halal": "yes",
+        "name": "Boucherie Ines",
+        "name:en": "Ines",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6384355969,
+      "lat": 48.7864188,
+      "lon": 2.3321562,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie de la Place",
+        "opening_hours": "Tu-Sa 09:00-12:30, 15:00-19:30",
+        "phone": "+33 9 51 62 71 16",
+        "ref:FR:SIRET": "53829241800018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6452010309,
+      "lat": 44.9440313,
+      "lon": 4.8415917,
+      "tags": {
+        "addr:housenumber": "84",
+        "addr:street": "Rue de la République",
+        "butcher": "pork/beef/poultry",
+        "check_date": "2025-10-11",
+        "description": "Boucher-charcutier et traiteur",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "email": "maisoncombe07@gmail.com",
+        "level": "0",
+        "name": "Maison Combe",
+        "opening_hours": "Mo-Sa 07:30-12:30,15:00-19:00",
+        "operator": "Maison Combe",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+33 4 75 80 28 25",
+        "shop": "butcher",
+        "website": "https://www.facebook.com/maisoncombe/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6502128430,
+      "lat": 48.9144562,
+      "lon": 2.337165,
+      "tags": {
+        "check_date": "2025-06-05",
+        "diet:halal": "yes",
+        "name": "Boucherie Jaurès",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6509409637,
+      "lat": 48.1176864,
+      "lon": -1.7072475,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Rue de Bourgogne",
+        "contact:phone": "+33 2 23 47 84 68",
+        "diet:halal": "only",
+        "name": "Boucherie du Campus",
+        "opening_hours": "Tu-Sa 09:00-13:30,15:30-19:30; Su 10:00-14:00",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "818678245",
+        "ref:FR:SIRET": "81867824500015",
+        "shop": "butcher",
+        "source": "INSEE - 2025-07",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6512695004,
+      "lat": 46.0819527,
+      "lon": 6.7244073,
+      "tags": {
+        "addr:housenumber": "36",
+        "contact:phone": "+33 4 50 34 47 36",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Le Veau Gras",
+        "opening_hours": "Mo-Su 07:30-13:00",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515253092,
+      "lat": 43.5696033,
+      "lon": 7.1109624,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Avenue Maréchal Joffre",
+        "check_date": "2025-05-18",
+        "diet:halal": "yes",
+        "diet:kosher": "only",
+        "name": "Boucherie Henry",
+        "opening_hours": "Mo,Su 08:00-13:00; Tu-Th 08:00-19:00; Fr 08:00-15:00",
+        "phone": "+33 4 92 96 90 67",
+        "ref:FR:SIRET": "98477567600013",
+        "shop": "butcher",
+        "website": "https://boucherie-henry-casher.eatbu.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6577743183,
+      "lat": 48.731978,
+      "lon": 2.2881159,
+      "tags": {
+        "addr:city": "Massy",
+        "addr:housenumber": "17",
+        "addr:postcode": "91300",
+        "addr:street": "Place de France",
+        "contact:phone": "+33 9 52 67 96 65",
+        "diet:halal": "only",
+        "name": "Boucherie de la Place de France",
+        "opening_hours": "9:00-18:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6639697317,
+      "lat": 47.7650439,
+      "lon": 2.3744567,
+      "tags": {
+        "addr:city": "Sully-sur-Loire",
+        "addr:housenumber": "24",
+        "addr:postcode": "45600",
+        "addr:street": "Boulevard Jeanne d'Arc",
+        "butcher": "pork",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "email": "lepaniercharcutier@gmail.com",
+        "level": "0",
+        "name": "Le Panier Charcutier",
+        "opening_hours": "Mo 08:15-12:30,15:00-18:00; Tu,Su 08:15-12:30; Th-Sa 08:15-12:30,15:00-19:00",
+        "operator": "Hugo & Audrey",
+        "phone": "+33 2 38 36 22 49",
+        "ref:FR:SIRET": "89327786300013",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6653129485,
+      "lat": 49.197992,
+      "lon": -0.3483231,
+      "tags": {
+        "contact:housenumber": "32",
+        "contact:street": "Place Champlain",
+        "delivery": "yes",
+        "diet:halal": "yes",
+        "name": "Escale Hop",
+        "phone": "+33 9 86 67 04 96",
+        "ref:FR:SIRET": "88965285500020",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6655128543,
+      "lat": 43.3072613,
+      "lon": -0.3524785,
+      "tags": {
+        "contact:city": "Pau",
+        "contact:housenumber": "10",
+        "contact:postcode": "64000",
+        "contact:street": "Rue du Comte de Saint-Cricq",
+        "diet:halal": "yes",
+        "name": "Boucherie Jasmin Alsham",
+        "ref:FR:NAF": "10.11Z",
+        "ref:FR:SIRET": "91337480700018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6683465529,
+      "lat": 48.8945078,
+      "lon": 2.314695,
+      "tags": {
+        "check_date": "2024-08-31",
+        "diet:halal": "yes",
+        "name": "Cour des Halles",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6690671133,
+      "lat": 49.2837275,
+      "lon": -0.2023974,
+      "tags": {
+        "butcher": "beef",
+        "contact:facebook": "https://www.facebook.com/100075973733910/",
+        "contact:housenumber": "36",
+        "contact:street": "Avenue de Paris",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "email": "beckarnaud18@gmail.com",
+        "level": "0",
+        "name": "Boucherie Arnaud Beck",
+        "opening_hours": "Tu-Sa 08:30-12:30,15:30-19:00; Su 08:30-12:30",
+        "operator": "Arnaud BECK",
+        "phone": "+33 2 31 24 21 86;+33 7 60 60 12 21",
+        "ref:FR:SIRET": "90461196900026",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832960119,
+      "lat": 48.774662,
+      "lon": 5.1598101,
+      "tags": {
+        "addr:city": "Bar-le-Duc",
+        "addr:country": "FR",
+        "addr:housenumber": "36",
+        "addr:postcode": "55000",
+        "addr:street": "Rue André Maginot",
+        "diet:halal": "only",
+        "name": "Boucherie Barisienne",
+        "opening_hours": "Mo off; Tu-Sa 09:00-12:30,14:30-19:00; Su 09:00-12:30",
+        "operator": "Medhi Belkheir",
+        "phone": "+33 3 54 38 02 08",
+        "ref:FR:SIRET": "95383973500040",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6873957021,
+      "lat": 47.2059151,
+      "lon": -1.5458034,
+      "tags": {
+        "check_date": "2025-11-16",
+        "check_date:diet:halal": "2025-09-08",
+        "contact:housenumber": "2",
+        "contact:street": "Place des Fonderies",
+        "diet:halal": "only",
+        "name": "Boucherie Afghane",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIRET": "87795338000020",
+        "shop": "butcher",
+        "source": "INSEE - 2025-12",
+        "was:amenity": "restaurant",
+        "was:cuisine": "italian",
+        "was:name": "A l'italienne;La Pizza de Nico",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6932755549,
+      "lat": 43.3558048,
+      "lon": 3.5287069,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Maison Valette et Fils",
+        "opening_hours": "Mo-Sa 08:30-12:30,16:00-19:00; Su 09:00-12:30",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7024429538,
+      "lat": 46.1241155,
+      "lon": 3.4303382,
+      "tags": {
+        "check_date": "2025-12-20",
+        "contact:city": "Vichy",
+        "contact:housenumber": "16",
+        "contact:postcode": "03200",
+        "contact:street": "Rue Voltaire",
+        "diet:halal": "yes",
+        "name": "Boucherie Ryad Tradition",
+        "opening_hours": "Mo 15:00-18:30; Tu-Su 09:00-13:30,16:00-19:30",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "818556318",
+        "ref:FR:SIRET": "81855631800017",
+        "shop": "butcher",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7028008477,
+      "lat": 48.8258204,
+      "lon": 2.3744163,
+      "tags": {
+        "diet:halal": "only",
+        "level": "0",
+        "name": "Patay Boucherie",
+        "ref:FR:SIRET": "93177855900019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7069885283,
+      "lat": 48.9384373,
+      "lon": 2.3476572,
+      "tags": {
+        "addr:city": "Saint-Denis",
+        "addr:housenumber": "2",
+        "addr:postcode": "93200",
+        "addr:street": "Rue Gisquet",
+        "diet:halal": "yes",
+        "name": "Les Barbaresques",
+        "opening_hours": "Mo-Th 09:30–20:30; Fr 09:30–13:00,15:00-20:30; Sa 09:30–20:30; Su 10:00–18:00",
+        "phone": "+33638518249",
+        "ref:FR:SIRET": "95265238600014",
+        "shop": "butcher",
+        "website": "https://www.instagram.com/boucherielesbarbaresques/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7074541655,
+      "lat": 43.6747426,
+      "lon": 4.1337598,
+      "tags": {
+        "addr:city": "Lunel",
+        "addr:housenumber": "50",
+        "addr:postcode": "34400",
+        "addr:street": "Cours Gabriel Péri",
+        "diet:halal": "yes",
+        "name": "Al Maghreb",
+        "opening_hours": "Tu-Su 08:30-13:30,16:00-21:30",
+        "phone": "+33 6 21 81 91 02",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7092870858,
+      "lat": 45.0027282,
+      "lon": 4.8721325,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Aux délices de la Drôme",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7101768696,
+      "lat": 48.8298098,
+      "lon": 2.539149,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Maison Grand-Père II",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111512604,
+      "lat": 43.1230116,
+      "lon": 6.1155157,
+      "tags": {
+        "addr:city": "Hyères",
+        "addr:housenumber": "35",
+        "addr:postcode": "83400",
+        "addr:street": "Avenue de Toulon",
+        "diet:halal": "only",
+        "name": "Boucherie Halal Délice Hyérois",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+334 22 80 96 71",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIRET": "90084684100014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7141284670,
+      "lat": 43.6757393,
+      "lon": 4.1325782,
+      "tags": {
+        "addr:city": "Lunel",
+        "addr:housenumber": "36",
+        "addr:postcode": "34400",
+        "addr:street": "Rue de la Libération",
+        "diet:halal": "yes",
+        "name": "Boucherie L’Encas",
+        "opening_hours": "Mo-Su 09:00-13:00,16:00-20:30",
+        "phone": "+33 4 67 71 07 28",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7168655338,
+      "lat": 48.8976912,
+      "lon": 1.406125,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7171758678,
+      "lat": 48.8737373,
+      "lon": 2.5804105,
+      "tags": {
+        "addr:city": "Chelles",
+        "addr:housenumber": "12",
+        "addr:postcode": "77500",
+        "addr:street": "Avenue du Maréchal Foch",
+        "check_date": "2024-09-01",
+        "check_date:opening_hours": "2024-09-01",
+        "diet:halal": "yes",
+        "name": "Boucherie Bam",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "40424613400013",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7181653265,
+      "lat": 45.4260091,
+      "lon": 4.4059337,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/p/Le-Billot-de-Jordan-61566228717964/",
+        "contact:phone": "+33 9 63 59 06 61",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Le Billot de Jordan",
+        "opening_hours": "Tu-We,Fr 07:30-13:00,15:00-19:00; Th 07:30-13:00; Sa 06:30-13:00,15:00-18:00",
+        "ref:FR:SIRET": "93077325400022",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7191463026,
+      "lat": 43.3085715,
+      "lon": -0.3565156,
+      "tags": {
+        "contact:city": "Pau",
+        "contact:housenumber": "43 ter",
+        "contact:postcode": "64000",
+        "contact:street": "Avenue du Loup",
+        "diet:halal": "yes",
+        "name": "Boucherie du Loup",
+        "ref:FR:NAF": "47.11B",
+        "ref:FR:SIRET": "83033852100016",
+        "ref:vatin": "FR91830338521",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7191463027,
+      "lat": 43.3086539,
+      "lon": -0.3566303,
+      "tags": {
+        "contact:city": "Pau",
+        "contact:housenumber": "43 ter",
+        "contact:postcode": "64000",
+        "contact:street": "Avenue du Loup",
+        "diet:halal": "yes",
+        "name": "Boucherie Assaada",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIRET": "83344312000013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7191463582,
+      "lat": 43.3072182,
+      "lon": -0.3624803,
+      "tags": {
+        "contact:city": "Pau",
+        "contact:housenumber": "8",
+        "contact:postcode": "64000",
+        "contact:street": "Rue du Maréchal Juin",
+        "diet:halal": "yes",
+        "name": "Boucherie Al Wafa",
+        "ref:FR:NAF": "47.81Z",
+        "ref:FR:SIRET": "82166721900017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7203157674,
+      "lat": 43.3281619,
+      "lon": 5.4055507,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie des Oliviers",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7205593435,
+      "lat": 45.7726425,
+      "lon": 4.8208791,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/pg/Boucherie-nour-halal-111483343700341",
+        "diet:halal": "yes",
+        "name": "Boucherie nour halal",
+        "phone": "+33 4 78 69 87 67",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7214541336,
+      "lat": 46.3462946,
+      "lon": 2.5966556,
+      "tags": {
+        "diet:halal": "only",
+        "level": "0",
+        "name": "Boucherie Du Marché",
+        "opening_hours": "Tu-Sa 09:30-12:30,15:30-19:30",
+        "phone": "+33 4 70 05 98 37",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7253026188,
+      "lat": 44.8407556,
+      "lon": 1.2755464,
+      "tags": {
+        "diet:halal": "no",
+        "name": "Boucherie De Carsac",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7271980743,
+      "lat": 43.6135472,
+      "lon": 1.4220458,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Al Andalus",
+        "phone": "+33 9 51 44 78 24",
+        "ref:FR:SIRET": "50795810600027",
+        "shop": "butcher",
+        "source": "INSEE - 06/2019",
+        "website": "https://www.facebook.com/boucheriealandalus31/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7276578390,
+      "lat": 45.7710061,
+      "lon": 4.8735603,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/boucherie.republique69/",
+        "contact:instagram": "https://www.instagram.com/boucherie.republique69/",
+        "diet:halal": "yes",
+        "email": "contact@boucherie-villeurbanne.com",
+        "name": "Boucherie République",
+        "opening_hours": "Tu-Fr 09:00-13:30,15:00-19:30; Sa 09:00-19:00",
+        "phone": "+33 9 81 36 06 71",
+        "ref:FR:SIRET": "90977506600014",
+        "shop": "butcher",
+        "website": "https://www.boucherie-villeurbanne.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7288839887,
+      "lat": 48.8283762,
+      "lon": 2.3431876,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Daviel",
+        "opening_hours": "Tu-Su 08:30-20:00",
+        "ref:FR:SIREN": "897951570",
+        "ref:FR:SIRET": "89795157000026",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7312581194,
+      "lat": 49.4354334,
+      "lon": 1.0860187,
+      "tags": {
+        "addr:housenumber": "8",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "diet:halal": "only",
+        "dog": "no",
+        "drive_through": "no",
+        "name": "Le Bienvenu",
+        "opening_hours": "Tu-Su 08:00-21:00",
+        "operator": "Salamat",
+        "organic": "no",
+        "payment:cash": "yes",
+        "phone": "+33 2 35 63 55 33",
+        "shop": "butcher",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7330223511,
+      "lat": 50.6025688,
+      "lon": 3.0550735,
+      "tags": {
+        "contact:phone": "+33 3 62 13 49 09",
+        "contact:website": "http://www.solylez.com/point.html#lille_h",
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Solylez",
+        "opening_hours": "Mo-Su 09:00-19:30",
+        "shop": "butcher",
+        "survey:date": "2020-03"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7330237327,
+      "lat": 50.6014422,
+      "lon": 3.0549295,
+      "tags": {
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "El kamara",
+        "ref:FR:SIRET": "48260498000011",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7330237341,
+      "lat": 50.6049655,
+      "lon": 3.0573243,
+      "tags": {
+        "contact:phone": "+33 3 20 85 19 65",
+        "contact:website": "https://www.boucheriedunord.fr/",
+        "diet:halal": "only",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Boucherie du Nord",
+        "opening_hours": "Tu-Sa 8:30-19:30; Su 8:30-14:30",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7347638111,
+      "lat": 43.6584621,
+      "lon": 7.1221051,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie du village",
+        "opening_hours": "Tu-Su 06:00-12:45, Tu,Th-Sa 16:00-19:30",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "85269603800011",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7350114223,
+      "lat": 43.5758685,
+      "lon": 1.3483596,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie La Mama",
+        "opening_hours": "08:30-20:30; Fr 08:30-13:00,15:00-20:30",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7374681306,
+      "lat": 48.3480791,
+      "lon": -1.2021889,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Al baraka",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7374733766,
+      "lat": 49.4331922,
+      "lon": 1.0884902,
+      "tags": {
+        "addr:city": "Rouen",
+        "addr:housenumber": "137",
+        "addr:postcode": "76100",
+        "addr:street": "Rue de Lessard",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "diet:halal": "yes",
+        "drive_through": "no",
+        "name": "Al Koutoubia",
+        "opening_hours": "Mo-Sa 07:30-19:00",
+        "organic": "no",
+        "payment:cash": "yes",
+        "ref:FR:SIRET": "83441057300010",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7417718518,
+      "lat": 49.424501,
+      "lon": 1.0883077,
+      "tags": {
+        "addr:postcode": "76300",
+        "addr:street": "Rue de Sotteville",
+        "diet:halal": "only",
+        "name": "Boucherie Rôtisserie Halal",
+        "payment:cash": "yes",
+        "ref:FR:SIRET": "88390679400028",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7453207355,
+      "lat": 48.8375003,
+      "lon": 2.397223,
+      "tags": {
+        "check_date": "2025-10-07",
+        "check_date:opening_hours": "2025-10-07",
+        "contact:email": "latelierdelaviande@gmail.com",
+        "contact:phone": "+33 6 27 37 66 47",
+        "description": "Annexe de la boucherie du 55 rue Claude Decaen. Ce local n’est pas ouvert au public.",
+        "diet:halal": "yes",
+        "name": "L’Atelier de la Viande",
+        "opening_hours": "closed",
+        "organic": "yes",
+        "ref:FR:SIRET": "32567306900010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7460889858,
+      "lat": 45.7286127,
+      "lon": 4.8660583,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie de Beauvisage",
+        "opening_hours": "Sa-Th 08:30-20:00; Fr 08:30-13:00,14:30-20:00",
+        "phone": "+33 9 54 18 23 40",
+        "ref:FR:SIRET": "83302563800010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473474738,
+      "lat": 48.6048531,
+      "lon": 2.2993353,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Place Federico Garcia Lorca",
+        "diet:halal": "yes",
+        "name": "Boucherie & Co",
+        "opening_hours": "We-Sa 09:00-20:00; Su 09:00-19:00",
+        "phone": "+33 1 69 88 06 92",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7486163900,
+      "lat": 43.4942651,
+      "lon": -1.4679484,
+      "tags": {
+        "check_date:opening_hours": "2024-06-01",
+        "contact:email": "bidegain.sebastien@orange.fr",
+        "currency:XLT": "EUSK",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Bidegain",
+        "opening_hours": "Tu,Th,Fr 07:45-12:45,15:45-19:30; We 07:45-13:00; Sa 07:45-13:30",
+        "payment:cash:XLT-EUSK": "yes",
+        "phone": "+33559550710",
+        "ref:FR:SIRET": "40793981800024",
+        "shop": "butcher",
+        "website": "https://www.boucherie-charcuterie-bidegain.fr/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7496768688,
+      "lat": 48.8316493,
+      "lon": 2.3239654,
+      "tags": {
+        "check_date": "2025-10-08",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Limousine",
+        "opening_hours": "Tu-Fr 09:00-13:00,16:00-19:30; Sa 09:30-13:00,16:30-19:30",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "41082833900011",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7502681688,
+      "lat": 48.830237,
+      "lon": 2.3255915,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "La Boucherie du Jour",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7702649525,
+      "lat": 48.1213221,
+      "lon": -1.6639834,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Sylvain Bessierre",
+        "opening_hours": "Mo-Fr 07:30-13:00,15:30-19:00; Sa 15:30-19:00",
+        "ref:FR:SIRET": "42260878600014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7734052424,
+      "lat": 43.6062198,
+      "lon": 2.2385205,
+      "tags": {
+        "addr:city": "Castres",
+        "addr:housenumber": "37",
+        "addr:postcode": "81100",
+        "addr:street": "Rue Émile Zola",
+        "diet:halal": "only",
+        "name": "Abderrahmane Ouamari",
+        "phone": "+33 5 63 59 06 57",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7750252525,
+      "lat": 43.6202999,
+      "lon": 1.457561,
+      "tags": {
+        "contact:housenumber": "70",
+        "contact:street": "Rue du Faubourg Bonnefoy",
+        "diet:halal": "only",
+        "name": "Boucherie La Baraka",
+        "ref:FR:SIRET": "88538746400013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7777963422,
+      "lat": 46.3486785,
+      "lon": 2.2139074,
+      "tags": {
+        "addr:city": "Boussac",
+        "addr:housenumber": "1",
+        "addr:postcode": "23600",
+        "addr:street": "Rue Martin Nadaud",
+        "butcher": "pork",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "name": "Boucherie Charcuterie Guillemin",
+        "opening_hours": "Tu-Sa 07:30-13:00,15:00-19:00",
+        "operator": "Thierry & Carole Guillemin",
+        "phone": "+33 5 55 65 04 51",
+        "shop": "butcher",
+        "website": "https://facebook.com/thierry.guillemin.927",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7780637961,
+      "lat": 46.3477211,
+      "lon": 2.2136695,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "boucherie",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7796821302,
+      "lat": 45.3885916,
+      "lon": 2.2740589,
+      "tags": {
+        "check_date": "2023-08-24",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Les fines bouches rient",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7820142494,
+      "lat": 50.6224595,
+      "lon": 3.0717733,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/lilboucherie-247502699489694/",
+        "contact:phone": "+33 3 59 54 50 17",
+        "delivery": "yes",
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Lil'Boucherie",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7830344543,
+      "lat": 45.6161199,
+      "lon": 5.2355184,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie de l'Isle",
+        "ref:FR:SIRET": "88474531600015",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7858105286,
+      "lat": 50.611243,
+      "lon": 3.0456446,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/Boucherie-du-Sud-Lille-111557561297539",
+        "contact:phone": "+33 9 82 44 05 26",
+        "contact:website": "https://www.boucheriedusud.fr/",
+        "diet:halal": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "name": "Boucherie du sud",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7881992502,
+      "lat": 43.3082215,
+      "lon": 5.3810779,
+      "tags": {
+        "contact:city": "Marseille",
+        "contact:housenumber": "157",
+        "contact:phone": "+33 4 91 08 07 12",
+        "contact:postcode": "13003",
+        "contact:street": "Boulevard National",
+        "diet:halal": "yes",
+        "name": "Boucherie du Centre",
+        "ref:FR:SIRET": "81518682000016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7900554430,
+      "lat": 49.2112782,
+      "lon": 2.6027225,
+      "tags": {
+        "addr:city": "Senlis",
+        "addr:housenumber": "11",
+        "addr:postcode": "60300",
+        "addr:street": "Rue de la Champignonnière",
+        "diet:halal": "yes",
+        "name": "M.M.E Butchery",
+        "opening_hours": "Mo off; Tu-Sa 09:00-19:00; Su 09:00-14:00",
+        "phone": "+33 3 44 53 26 60",
+        "shop": "butcher",
+        "website": "https://www.mmebutchery.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7923594482,
+      "lat": 48.8725784,
+      "lon": 2.3540853,
+      "tags": {
+        "check_date": "2026-01-30",
+        "contact:city": "Paris",
+        "contact:housenumber": "67",
+        "contact:phone": "+33 1 53 34 88 78",
+        "contact:postcode": "75010",
+        "contact:street": "Rue du Faubourg Saint-Denis",
+        "diet:halal": "only",
+        "name": "Lahore Supermarché",
+        "ref:FR:SIRET": "53050502300024",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7928587339,
+      "lat": 44.6354976,
+      "lon": 4.2563065,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Farger",
+        "opening_hours": "We-Fr 14:30-19:00, Th-Su 08:00-12:30, Sa 15:30-19:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8148895224,
+      "lat": 45.7562959,
+      "lon": 4.8457797,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Boualem",
+        "ref:FR:SIRET": "38851803700014",
+        "shop": "butcher",
+        "survey:date": "2020-11-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8148895318,
+      "lat": 45.7561221,
+      "lon": 4.8461445,
+      "tags": {
+        "check_date": "2024-12-07",
+        "diet:halal": "only",
+        "name": "Boucherie Salem",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8148895419,
+      "lat": 45.7561618,
+      "lon": 4.8457879,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Boualem",
+        "ref:FR:SIRET": "38851803700014",
+        "shop": "butcher",
+        "survey:date": "2020-11-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8176394118,
+      "lat": 48.1215967,
+      "lon": -1.7177383,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Tamsahelte",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8217843691,
+      "lat": 48.8231495,
+      "lon": 2.5102831,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Adel",
+        "ref:FR:SIRET": "94968920200016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8304562376,
+      "lat": 48.8901722,
+      "lon": 2.3493573,
+      "tags": {
+        "addr:city": "Paris",
+        "addr:housenumber": "65",
+        "addr:postcode": "75018",
+        "addr:street": "Boulevard Barbès",
+        "diet:halal": "only",
+        "name": "Bayt Ul Lahm",
+        "opening_hours": "Mo-Su 09:00-20:30",
+        "phone": "+33 1 42 51 29 80",
+        "ref:FR:SIRET": "82178944300024",
+        "shop": "butcher",
+        "website": "https://facebook.com/baytullahm/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8375257975,
+      "lat": 48.9147101,
+      "lon": 2.3836691,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "El Majd",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8378316479,
+      "lat": 48.9141667,
+      "lon": 2.379633,
+      "tags": {
+        "check_date": "2024-09-05",
+        "diet:halal": "yes",
+        "name": "Boucherie Sousse",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8378316484,
+      "lat": 48.914109,
+      "lon": 2.3800749,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Marrakech",
+        "operator": "Boucherie Sarah",
+        "ref:FR:SIRET": "49881594300010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8380373217,
+      "lat": 48.8707158,
+      "lon": 2.3533181,
+      "tags": {
+        "check_date": "2026-03-16",
+        "contact:city": "Paris",
+        "contact:housenumber": "20",
+        "contact:postcode": "75010",
+        "contact:street": "Rue du Faubourg Saint-Denis",
+        "diet:halal": "yes",
+        "name": "Boucherie Medina",
+        "ref:FR:SIRET": "94267061300010",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8390631122,
+      "lat": 45.7391276,
+      "lon": 4.8613876,
+      "tags": {
+        "check_date": "2024-07-05",
+        "diet:halal": "yes",
+        "name": "Boucherie Moyen-Orient",
+        "phone": "+33472622693",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8500121748,
+      "lat": 48.9245307,
+      "lon": 2.2944451,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie de la Mairie",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8513659299,
+      "lat": 50.6395402,
+      "lon": 3.0132365,
+      "tags": {
+        "diet:halal": "only",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "level": "0",
+        "name": "Boucherie de Lomme",
+        "opening_hours": "Tu-Th 09:00-13:00,15:00-20:00; Fr 09:00-13:00,15:30-20:00; Sa 09:00-20:00; Su 09:00-15:00; PH closed",
+        "shop": "butcher",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520486861,
+      "lat": 48.6907712,
+      "lon": 2.3780035,
+      "tags": {
+        "addr:city": "Juvisy-sur-Orge",
+        "addr:housenumber": "36",
+        "addr:postcode": "91260",
+        "addr:street": "Rue Victor Hugo",
+        "diet:halal": "only",
+        "email": "numidiaviande91260@gmail.com",
+        "name": "Boucherie Numidia",
+        "opening_hours": "08:00-20:30",
+        "phone": "+33 1 77 05 95 07",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8647423539,
+      "lat": 49.0122719,
+      "lon": 2.2025226,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Delahousse charcuterie",
+        "opening_hours": "Sa 08:30-13:00,15:30-18:30",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658024013,
+      "lat": 43.6357228,
+      "lon": 3.9241896,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Viandes d'Oc",
+        "phone": "+33467401409",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8763075060,
+      "lat": 43.3309565,
+      "lon": 5.4046612,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucher King Halal du Merlan",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8776518660,
+      "lat": 48.9160477,
+      "lon": 2.3043885,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie musulmane de la cité",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8806490117,
+      "lat": 48.8416232,
+      "lon": 2.2809642,
+      "tags": {
+        "contact:city": "Paris",
+        "contact:housenumber": "168",
+        "contact:phone": "+33 1 45 01 55 46",
+        "contact:postcode": "75015",
+        "contact:street": "Rue Saint-Charles",
+        "diet:halal": "only",
+        "name": "Maison Kachour",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8808554334,
+      "lat": 43.4593475,
+      "lon": 1.3266533,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Dima Market",
+        "shop": "butcher",
+        "survey:date": "2021-06-06"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8954653368,
+      "lat": 45.9024009,
+      "lon": 4.18026,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "2",
+        "name": "La Boucherie d'Amaury",
+        "opening_hours": "Tu-Sa 07:30-12:30,15:00-19:00; Su 07:30-12:30; PH closed",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9047993239,
+      "lat": 44.7988792,
+      "lon": 3.2768087,
+      "tags": {
+        "description": "Bpucherie Charcuterie",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Maison Prinuere",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9076986442,
+      "lat": 48.786722,
+      "lon": 2.2267002,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:postcode": "92360",
+        "addr:street": "Galerie des Marchands",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "name": "Boucherie Centrale",
+        "opening_hours": "Tu-Sa 08:30-13:00, 15:00-19:30; Su 08:30-13:00",
+        "phone": "+33146311183",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9117787090,
+      "lat": 48.787374,
+      "lon": 2.2276106,
+      "tags": {
+        "addr:city": "Meudon",
+        "addr:housenumber": "1",
+        "addr:postcode": "92360",
+        "addr:street": "Galerie de la Fontaine",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "email": "boufalgha.sami@gmail.com",
+        "level": "0",
+        "name": "SB Boucherie",
+        "operator": "SB BOUCHERIE",
+        "phone": "+33141285514",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "811818988",
+        "ref:FR:SIRET": "81181898800016",
+        "ref:vatin": "FR85811818988",
+        "shop": "butcher",
+        "start_date": "2015-07-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9204264217,
+      "lat": 43.5504255,
+      "lon": 1.3865747,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:postcode": "31100",
+        "addr:street": "Rue Missak Manouchian",
+        "diet:halal": "yes",
+        "name": "Boucherie Tibaous",
+        "opening_hours": "08:30-20:00; Fr 08:30-13:30,15:00-20:00",
+        "ref:FR:SIRET": "88927785100016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9368258957,
+      "lat": 43.8279483,
+      "lon": 4.5629569,
+      "tags": {
+        "diet:halal": "yes",
+        "opening_hours": "We-Sa 09:30-12:30,15:30-19:00, Tu 15:30-19:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9373875778,
+      "lat": 48.904615,
+      "lon": 2.3023115,
+      "tags": {
+        "check_date": "2025-09-03",
+        "diet:halal": "yes",
+        "name": "Boucherie Sarah",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9374520785,
+      "lat": 43.3804749,
+      "lon": 5.357634,
+      "tags": {
+        "addr:city": "Marseille",
+        "addr:housenumber": "398",
+        "contact:email": "vitamines13015@gmail.com",
+        "contact:phone": "+33 4 91 22 85 58",
+        "contact:website": "https://boucherievitamines.com/",
+        "diet:halal": "yes",
+        "name": "Vitamines",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381547725,
+      "lat": 45.3688275,
+      "lon": 5.5894748,
+      "tags": {
+        "check_date": "2024-12-12",
+        "diet:halal": "yes",
+        "name": "Boucherie d'Alger",
+        "ref:FR:SIRET": "92043094900015",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9397348005,
+      "lat": 47.484942,
+      "lon": -0.5717107,
+      "tags": {
+        "check_date": "2024-02-04",
+        "diet:halal": "only",
+        "name": "Essaouira",
+        "ref:FR:SIRET": "52894966200019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9481401470,
+      "lat": 48.8899048,
+      "lon": 2.3216388,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "El Bahja",
+        "ref:FR:SIRET": "50857821800010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9502494773,
+      "lat": 45.7499757,
+      "lon": 5.1762474,
+      "tags": {
+        "addr:city": "Pont-de-Chéruy",
+        "addr:housenumber": "4",
+        "addr:postcode": "38230",
+        "addr:street": "Place René Duquaire",
+        "diet:halal": "yes",
+        "name": "El Amir",
+        "phone": "+33 4 72 02 36 54",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9542944842,
+      "lat": 48.8906178,
+      "lon": 2.3204373,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Oasis",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9543040860,
+      "lat": 50.6343594,
+      "lon": 3.0302574,
+      "tags": {
+        "diet:halal": "only",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "level": "0",
+        "name": "Boucherie Bois Blanc",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9737707608,
+      "lat": 43.946446,
+      "lon": 4.8443557,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "B mel",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764361861,
+      "lat": 45.6202692,
+      "lon": 5.2185145,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Le Comptoir du Boucher",
+        "phone": "+33 4 37 06 39 42",
+        "ref:FR:SIRET": "88927418900014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9779595524,
+      "lat": 47.240546,
+      "lon": 6.0191041,
+      "tags": {
+        "addr:city": "Besançon",
+        "addr:housenumber": "6",
+        "addr:postcode": "25000",
+        "addr:street": "Rue de la Madeleine",
+        "diet:halal": "yes",
+        "name": "Boucherie TVB",
+        "opening_hours": "Mo 08:30-19:00; Tu-Sa 08:00-19:00; Fr 08:00-13:45,15:00-19:00; Su 08:00-13:00",
+        "phone": "+33381613137",
+        "ref:FR:SIRET": "81276848900013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9874195260,
+      "lat": 48.5410155,
+      "lon": 2.6246029,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie A.Y.A.",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9879172061,
+      "lat": 43.5786031,
+      "lon": 7.1206172,
+      "tags": {
+        "butcher": "halal",
+        "check_date": "2025-09-20",
+        "diet:halal": "only",
+        "name": "Boucherie Palmier d'Antibes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+33 4 93 61 06 01",
+        "ref:FR:SIRET": "81139458400015",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9924537244,
+      "lat": 48.830772,
+      "lon": 2.311696,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9968166272,
+      "lat": 45.7635924,
+      "lon": 4.8657343,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Lafayette",
+        "opening_hours": "Mo-Fr 08:00-13:00,15:00-20:00; Sa 08:00-20:00",
+        "ref:FR:SIRET": "47872738100012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10031729256,
+      "lat": 42.688271,
+      "lon": 2.8948089,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/MaisonSaveurs66/",
+        "contact:website": "https://maison-saveurs.business.site/",
+        "diet:halal": "only",
+        "name": "Maison des Saveurs",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10032493876,
+      "lat": 47.9824607,
+      "lon": 0.2108096,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Chez Redouane",
+        "ref:FR:SIRET": "87848651300012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10032493886,
+      "lat": 47.9726302,
+      "lon": 0.2162611,
+      "tags": {
+        "diet:halal": "yes",
+        "ref:FR:SIRET": "87848651300012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10032493914,
+      "lat": 47.9788483,
+      "lon": 0.2140483,
+      "tags": {
+        "alt_name": "Boucherie Clémenceau",
+        "contact:email": "boucherie-walima@orange.fr",
+        "contact:phone": "+33 2 53 15 20 21",
+        "contact:website": "https://boucheriewalima.fr/",
+        "diet:halal": "yes",
+        "name": "Boucherie Walima",
+        "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:00; Fr 10:00-12:30,15:00-19:00; Su 09:00-13:00",
+        "ref:FR:SIRET": "53310131700014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10085977699,
+      "lat": 47.9822111,
+      "lon": 0.2099445,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Maryam",
+        "ref:FR:SIRET": "91914782700019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10147895905,
+      "lat": 43.3940443,
+      "lon": 6.3303687,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie El Hana",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10259173093,
+      "lat": 43.6073438,
+      "lon": 1.4716955,
+      "tags": {
+        "contact:mobile": "+33 6 43 02 43 89",
+        "diet:halal": "yes",
+        "email": "boucherie.avenue.gloire@gmail.com",
+        "opening_hours": "Tu-Su 09:30-13:30, 15:30-19:30",
+        "shop": "butcher",
+        "website": "https://boucherie-avenue-gloire.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10291849930,
+      "lat": 49.0331108,
+      "lon": 2.0194893,
+      "tags": {
+        "check_date": "2025-11-30",
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10312523259,
+      "lat": 48.8082827,
+      "lon": 2.3326133,
+      "tags": {
+        "addr:housenumber": "36",
+        "addr:postcode": "94110",
+        "addr:street": "Avenue Laplace",
+        "air_conditioning": "yes",
+        "diet:halal": "yes",
+        "name": "Boucherie Laplace",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10538990009,
+      "lat": 45.1871688,
+      "lon": 5.7146596,
+      "tags": {
+        "check_date": "2026-03-16",
+        "check_date:opening_hours": "2023-08-06",
+        "diet:halal": "only",
+        "name": "Boucherie Trésor",
+        "opening_hours:signed": "no",
+        "payment:credit_cards": "yes",
+        "ref:FR:SIRET": "97925289700017",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10555009265,
+      "lat": 47.2216886,
+      "lon": -1.6022571,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Achref",
+        "ref:FR:SIRET": "43464804400015",
+        "shop": "butcher",
+        "survey:date": "2023-01-24"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10631220694,
+      "lat": 43.3270754,
+      "lon": 5.3634835,
+      "tags": {
+        "butcher": "lamb",
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10655222323,
+      "lat": 43.6664286,
+      "lon": 1.194368,
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:street": "Avenue de la République",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Daniel Martins",
+        "opening_hours": "Tu-Su 07:30-13:00; Tu-Sa 16:00-19:00",
+        "ref:FR:SIRET": "81942749300013",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10655222359,
+      "lat": 43.6662441,
+      "lon": 1.1941218,
+      "tags": {
+        "butcher": "pork",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Médina",
+        "shop": "butcher",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10736650858,
+      "lat": 45.4493558,
+      "lon": 4.4029327,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie du Soleil",
+        "ref:FR:SIRET": "89464449100017",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10820454326,
+      "lat": 47.3237978,
+      "lon": 5.0398421,
+      "tags": {
+        "butcher": "pork",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Au Cochon Qui Fume",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10833464822,
+      "lat": 45.7938776,
+      "lon": 3.0902431,
+      "tags": {
+        "check_date": "2025-11-15",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "kids_area": "no",
+        "level": "0",
+        "name": "Franck Guillemin",
+        "opening_hours": "Mo-We,Fr 07:30-13:00,15:00-19:00; Th 07:30-13:00; Sa 07:30-12:30",
+        "phone": "+33473370487",
+        "ref:FR:SIRET": "45281422100019",
+        "shop": "butcher",
+        "website": "https://www.boucherie-guillemin.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10856238806,
+      "lat": 50.6776706,
+      "lon": 3.1790277,
+      "tags": {
+        "addr:city": "Roubaix",
+        "addr:housenumber": "52",
+        "addr:postcode": "59100",
+        "addr:street": "Boulevard de Lyon",
+        "diet:halal": "only",
+        "name": "Boucherie chez Amari",
+        "opening_hours": "Sa-Th 09:00-20:00; Fr 09:00-12:30, 14:30-20:00",
+        "payment:cheque": "yes",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "butcher",
+        "website": "https://boucherie-amari.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10862394371,
+      "lat": 49.2519419,
+      "lon": 2.4668917,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Rue Henri Dunant",
+        "diet:halal": "yes",
+        "name": "Boucherie Nouvel Atlas",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "phone": "+33 3 44 24 62 72",
+        "ref:FR:SIRET": "53876533000013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10920137967,
+      "lat": 44.6366603,
+      "lon": 4.2544704,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Rigal",
+        "opening_hours": "Tu-Su 08:00-12:30,16:00-19:15",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "butcher",
+        "start_date": "1850",
+        "wheelchair": "yes",
+        "wikimedia_commons": "File:Jaujac - Boucherie-charcuterie (avr 2023).jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10935205505,
+      "lat": 45.9175512,
+      "lon": 6.1339208,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Baule",
+        "opening_hours": "Mo-Su 07:00-12:00,15:00-19:00",
+        "operator": "M.Baule",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "ref:FR:SIRET": "38265803700017",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10946243250,
+      "lat": 45.4361773,
+      "lon": 4.3842993,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie Moderne",
+        "ref:FR:SIRET": "52385972600011",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10946243251,
+      "lat": 45.4361251,
+      "lon": 4.3840532,
+      "tags": {
+        "check_date:opening_hours": "2025-05-21",
+        "diet:halal": "only",
+        "name": "Sadi Hadadi",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "32634534500010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10957904437,
+      "lat": 49.3018532,
+      "lon": 2.6051713,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Place du Marché au Blé",
+        "diet:halal": "yes",
+        "name": "Boucherie la Ferme Picarde",
+        "opening_hours": "Su-Fr 09:00-13:00,15:00-19:30; Sa 09:00-19:30",
+        "phone": "+33 3 44 72 29 22",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10977124410,
+      "lat": 46.2428735,
+      "lon": 6.0267117,
+      "tags": {
+        "addr:city": "Saint-Genis-Pouilly",
+        "addr:country": "FR",
+        "addr:housenumber": "2",
+        "addr:postcode": "01630",
+        "addr:street": "Rue de la Prairie",
+        "check_date": "2024-11-03",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Prairie",
+        "opening_hours": "Mo,We-Fr 08:30-12:45,14:30-19:00; Sa,Su 08:30-19:00; Tu off",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11013618003,
+      "lat": 48.6474376,
+      "lon": 2.4174535,
+      "tags": {
+        "contact:phone": "+33 1 69 06 06 64",
+        "diet:halal": "yes",
+        "name": "Boucherie LMD",
+        "opening_hours": "Tu-Sa 09:00-20:00; Su 09:00-13:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11032184356,
+      "lat": 48.6357168,
+      "lon": 2.4293356,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11035868678,
+      "lat": 43.7208138,
+      "lon": 7.2567198,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Boulevard Gorbella",
+        "diet:halal": "only",
+        "name": "Boucherie Annour",
+        "opening_hours": "08:00-20:00",
+        "phone": "+33 4 92 09 08 75",
+        "ref:FR:SIRET": "51420524400015",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11059759017,
+      "lat": 45.4224091,
+      "lon": 4.3923709,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Maison Dries",
+        "ref:FR:SIRET": "94833952800010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11074171410,
+      "lat": 47.9907811,
+      "lon": 0.2228004,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11078513509,
+      "lat": 46.8346544,
+      "lon": -0.4747226,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Chaouia",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "852403187",
+        "ref:FR:SIRET": "85240318700010",
+        "shop": "butcher",
+        "source": "INSEE - 2024-12"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11089016963,
+      "lat": 46.3586089,
+      "lon": 6.4529865,
+      "tags": {
+        "addr:city": "Thonon-les-Bains",
+        "addr:housenumber": "70",
+        "addr:postcode": "74200",
+        "addr:street": "Avenue de Genève",
+        "contact:email": "boucheriedethonon@gmail.com",
+        "contact:facebook": "https://www.facebook.com/people/Boucherie-De-Thonon/100071514083553/",
+        "contact:phone": "+33 4 50 70 09 68",
+        "contact:website": "https://www.boucheriedethonon.fr/fr-fr/",
+        "diet:halal": "only",
+        "name": "Boucherie de Thonon",
+        "opening_hours": "Mo-Th 09:00-13:00, 15:00-19:00; Fr 09:00-12:00, 15:00-19:00; Sa 09:00-20:00; Su 09:00-17:00",
+        "ref:FR:NAF": "4722Z",
+        "ref:FR:SIREN": "792345951",
+        "ref:FR:SIRET": "79234595100018",
+        "shop": "butcher",
+        "source": "INSEE - 2023-06",
+        "start_date": "2013-04-15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11218602185,
+      "lat": 43.6129326,
+      "lon": 1.4773828,
+      "tags": {
+        "contact:mobile": "+33 6 51 36 57 66",
+        "diet:halal": "yes",
+        "name": "Jourdain",
+        "opening_hours": "Mo-Su",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11277388221,
+      "lat": 43.6385908,
+      "lon": 1.4446964,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Dalia",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11379713949,
+      "lat": 43.709902,
+      "lon": 7.2888688,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Avenue François Mitterrand",
+        "diet:halal": "yes",
+        "email": "contact@boucherielecomptoirdessaveurs.fr",
+        "name": "Le Comptoir des Saveurs",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+        "phone": "+33 4 83 84 84 30",
+        "ref:FR:SIRET": "89810291800015",
+        "shop": "butcher",
+        "website": "https://www.boucherielecomptoirdessaveurs.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11380836325,
+      "lat": 45.7296545,
+      "lon": 4.8761997,
+      "tags": {
+        "addr:floor": "0",
+        "check_date": "2024-11-04",
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "Boucherie Paul Santy",
+        "phone": "+33 4 78 09 40 02",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11380836770,
+      "lat": 48.8930764,
+      "lon": 2.3434513,
+      "tags": {
+        "addr:city": "Paris",
+        "addr:housenumber": "10",
+        "addr:postcode": "75018",
+        "addr:street": "Rue du Poteau",
+        "diet:halal": "no",
+        "name": "Rôtisserie Au Bon Kokoriko",
+        "ref:FR:SIRET": "90135397900015",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11434697758,
+      "lat": 45.4216128,
+      "lon": 4.3920139,
+      "tags": {
+        "diet:halal": "only",
+        "name": "Boucherie du Bonheur",
+        "ref:FR:SIRET": "95347857500012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11494140029,
+      "lat": 43.5904363,
+      "lon": 1.3797969,
+      "tags": {
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "boucherie Gabriel Sanchez",
+        "opening_hours": "Tu-Sa 09:00-12:30,16:00-19:00; Su 09:00-12:30",
+        "organic": "no",
+        "phone": "+33561491290",
+        "shop": "butcher",
+        "survey:date": "2024-01-06",
+        "website": "http://www.chuletta.fr",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11662465625,
+      "lat": 48.9497517,
+      "lon": 2.5680485,
+      "tags": {
+        "diet:halal": "yes",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11663325598,
+      "lat": 49.1989104,
+      "lon": -0.3658997,
+      "tags": {
+        "contact:housenumber": "22",
+        "contact:street": "Rue de la Défense Passive",
+        "diet:halal": "yes",
+        "name": "Boucherie Nino",
+        "ref:FR:SIRET": "88084279400013",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11667060481,
+      "lat": 43.4619576,
+      "lon": -1.5399968,
+      "tags": {
+        "contact:phone": "+33559241013",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Charcuterie Serge Guiraud",
+        "opening_hours": "Tu-Sa 07:30-13:00,15:30-18:30",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11883046615,
+      "lat": 45.7279215,
+      "lon": 4.8775267,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "La Bouche Rit",
+        "ref:FR:SIRET": "98254069200018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11906943758,
+      "lat": 48.6381785,
+      "lon": 2.3593832,
+      "tags": {
+        "addr:city": "Fleury-Mérogis",
+        "addr:housenumber": "103",
+        "addr:postcode": "91700",
+        "addr:street": "Rue Rosa Parks",
+        "diet:halal": "yes",
+        "name": "Boucherie Fleury",
+        "opening_hours": "Mo-Th,Sa 08:30-19:30; Fr 08:30-13:00,14:00-19:30; Su 9:00-19:30",
+        "phone": "+33660899053",
+        "ref:FR:SIRET": "81125864900029",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11919622991,
+      "lat": 48.5759631,
+      "lon": 7.7317325,
+      "tags": {
+        "check_date": "2024-05-20",
+        "diet:halal": "only",
+        "name": "Tuna",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11953876598,
+      "lat": 47.3105494,
+      "lon": 5.0479657,
+      "tags": {
+        "check_date:opening_hours": "2025-11-26",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Gauthier",
+        "opening_hours": "Tu-Fr 09:00-12:30,15:30-19:15; Sa 09:00-18:00; Su,Mo,PH off",
+        "ref:FR:SIRET": "40080151000043",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11981641175,
+      "lat": 43.6318469,
+      "lon": 1.4624943,
+      "tags": {
+        "contact:housenumber": "69",
+        "contact:street": "Route d'Albi",
+        "diet:halal": "only",
+        "name": "L'entrecôte",
+        "ref:FR:SIRET": "98469814200010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12044095350,
+      "lat": 45.7321385,
+      "lon": 4.8640969,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Al Wafa",
+        "ref:FR:SIRET": "85167548800015",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12059170644,
+      "lat": 49.1616434,
+      "lon": -0.3483016,
+      "tags": {
+        "contact:housenumber": "1031",
+        "contact:street": "Rue de Caen",
+        "diet:halal": "yes",
+        "name": "Demirtas",
+        "ref:FR:SIRET": "82434447700032",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12065776562,
+      "lat": 44.6665227,
+      "lon": 0.3987841,
+      "tags": {
+        "contact:email": "axelrigaultpro@gmail.com",
+        "contact:facebook": "https://www.facebook.com/people/Les-Bouch%C3%A9es-dEymet/61558452968905/",
+        "contact:phone": "+33 7 49 81 82 35",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Les Bouchées d'Eymet",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12081724528,
+      "lat": 45.4379133,
+      "lon": 4.3910071,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/p/Boucherie-Talia-100063589892250/",
+        "contact:phone": "+33 4 77 32 67 42",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Boucherie Talia",
+        "opening_hours": "Tu-Sa 08:00-13:00,15:00-19:00",
+        "ref:FR:SIRET": "99145324200018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12096834919,
+      "lat": 47.270618,
+      "lon": -1.5191769,
+      "tags": {
+        "check_date": "2025-06-15",
+        "check_date:opening_hours": "2025-06-15",
+        "contact:housenumber": "8",
+        "contact:street": "Rue Barbara",
+        "diet:halal": "yes",
+        "name": "La Maison Du Boucher",
+        "opening_hours:signed": "no",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "983602764",
+        "ref:FR:SIRET": "98360276400026",
+        "shop": "butcher",
+        "source": "INSEE - 2025-09",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12122834547,
+      "lat": 46.7750386,
+      "lon": 6.0374761,
+      "tags": {
+        "diet:halal": "no",
+        "name": "Le Saloir Des Remparts",
+        "opening_hours": "Tu-Sa 08:30-12:00,14:30-18:30",
+        "shop": "butcher",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12134349497,
+      "lat": 45.4763242,
+      "lon": 4.383287,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/BoucherieSolmona/",
+        "contact:phone": "+33 4 77 93 94 12",
+        "contact:website": "https://www.boucheriesolmona.fr/",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Les Frères Solmona",
+        "opening_hours": "Mo 08:00-12:30,15:00-19:00; Tu-Fr 07:00-19:00; Sa 08:00-18:00",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150298851,
+      "lat": 47.83888,
+      "lon": 1.9304221,
+      "tags": {
+        "addr:city": "Orléans",
+        "addr:housenumber": "6",
+        "addr:postcode": "45100",
+        "addr:street": "Rue Romain Rolland",
+        "contact:email": "aftas.boucherie@gmail.com",
+        "contact:facebook": "https://www.facebook.com/people/Boucherie-Aftas/100068657570374/",
+        "diet:halal": "yes",
+        "name": "Boucherie Aftas",
+        "panoramax": "bd0bf612-b29a-48e3-8513-7286d43653eb",
+        "phone": "+339 54 52 18 73",
+        "ref:FR:SIRET": "90064042600012",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12265645498,
+      "lat": 47.3576806,
+      "lon": 5.0354763,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Côte d'Or",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12281531223,
+      "lat": 49.2011711,
+      "lon": -0.3392658,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "Boucherie Haute Folie",
+        "ref:FR:SIRET": "83106132000014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12484239840,
+      "lat": 49.1607133,
+      "lon": -0.3436243,
+      "tags": {
+        "contact:housenumber": "9",
+        "contact:street": "Place de la Liberté",
+        "diet:halal": "yes",
+        "name": "Boucherie de la Guérinière",
+        "opening_hours": "Tu-Sa 09:00-13:00,14:30-19:30; Su 09:45-15:00; Mo off",
+        "ref:FR:SIRET": "53529046400036",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12486778708,
+      "lat": 45.4167718,
+      "lon": 4.3938459,
+      "tags": {
+        "diet:halal": "only",
+        "name": "O’Boucher!",
+        "ref:FR:SIRET": "85052540300018",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12495512994,
+      "lat": 49.1426996,
+      "lon": -0.3408649,
+      "tags": {
+        "contact:housenumber": "13",
+        "contact:street": "Rue Urbain le Verrier",
+        "diet:halal": "yes",
+        "name": "Les Trois Chefs",
+        "opening_hours": "Mo 14:00-19:30; Tu-Sa 09:00-13:00,14:00-19:30; Su 10:00-18:00",
+        "ref:FR:SIRET": "83160989600046",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12525104999,
+      "lat": 45.4483336,
+      "lon": 4.3902317,
+      "tags": {
+        "contact:phone": "+33 9 54 74 83 67",
+        "diet:halal": "only",
+        "name": "Boucherie Enver Baba",
+        "ref:FR:SIRET": "98924758000016",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12550981936,
+      "lat": 45.2975893,
+      "lon": 5.4832761,
+      "tags": {
+        "addr:city": "Tullins",
+        "addr:housenumber": "34",
+        "addr:postcode": "38210",
+        "addr:street": "Rue Général de Gaulle",
+        "diet:halal": "yes",
+        "name": "Boucherie Tullinoise",
+        "ref:FR:SIRET": "82749804900010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12685991167,
+      "lat": 47.9901568,
+      "lon": 0.2062478,
+      "tags": {
+        "diet:halal": "yes",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 11:00-19:00",
+        "ref:FR:SIRET": "93509638800019",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12750000778,
+      "lat": 45.7003749,
+      "lon": 4.8861002,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "El Jazar",
+        "opening_hours": "Mo-Su 08:30-19:30",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12757729700,
+      "lat": 46.5807607,
+      "lon": 1.9867931,
+      "tags": {
+        "addr:city": "La Châtre",
+        "addr:country": "FR",
+        "addr:housenumber": "2",
+        "addr:postcode": "36400",
+        "addr:street": "Place du Marché",
+        "butcher": "beef",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "name": "Le Bœuf Limousin - Boucherie Paquet",
+        "opening_hours": "Tu-Sa 08:00-13:00,15:00-19:00",
+        "phone": "+33 2 54 48 21 76",
+        "ref:FR:SIRET": "41862536400058",
+        "shop": "butcher",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12790385819,
+      "lat": 45.6884525,
+      "lon": 5.9076376,
+      "tags": {
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12801155709,
+      "lat": 48.7662545,
+      "lon": 2.4075148,
+      "tags": {
+        "addr:city": "Choisy-le-Roi",
+        "addr:housenumber": "9",
+        "addr:postcode": "94600",
+        "addr:street": "Place de l'Église",
+        "diet:halal": "only",
+        "name": "Choisy Viandes",
+        "phone": "+33148840942",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12828799990,
+      "lat": 48.8340818,
+      "lon": 2.5161727,
+      "tags": {
+        "addr:housenumber": "256",
+        "addr:street": "Avenue Pierre Brossolette",
+        "check_date": "2025-05-11",
+        "diet:halal": "yes",
+        "name": "Maison Grand Père IV",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12847859128,
+      "lat": 49.2893846,
+      "lon": 1.0049355,
+      "tags": {
+        "addr:housenumber": "59",
+        "addr:street": "Rue des Martyrs",
+        "diet:halal": "yes",
+        "name": "Boucherie des cousins",
+        "phone": "+33 2 76 52 22 40",
+        "ref:FR:SIRET": "84753844400013",
+        "shop": "butcher",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12892572618,
+      "lat": 47.256182,
+      "lon": -1.5758215,
+      "tags": {
+        "contact:city": "Nantes",
+        "contact:housenumber": "32 Bis",
+        "contact:postcode": "44300",
+        "contact:street": "Route de La Chapelle sur Erdre",
+        "diet:halal": "only",
+        "name": "Halal House",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+33 9 86 11 67 52",
+        "ref:FR:NAF": "47.22Z",
+        "ref:FR:SIREN": "911142032",
+        "ref:FR:SIRET": "91114203200018",
+        "shop": "butcher",
+        "source": "INSEE - 2025-08"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12903117213,
+      "lat": 43.6195463,
+      "lon": 1.4695442,
+      "tags": {
+        "addr:city": "Toulouse",
+        "addr:postcode": "31500",
+        "diet:halal": "yes",
+        "name": "Boucherie La Roseraie",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12953794214,
+      "lat": 48.9614177,
+      "lon": 2.0696822,
+      "tags": {
+        "diet:halal": "yes",
+        "name": "SH Market",
+        "phone": "+33 6 61 04 50 50",
+        "ref:FR:SIRET": "88799364000010",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13022803580,
+      "lat": 48.9188774,
+      "lon": 2.2807031,
+      "tags": {
+        "check_date": "2025-07-25",
+        "diet:halal": "yes",
+        "name": "Boucherie Dounia",
+        "opening_hours": "Mo-Su 09:00–19:30",
+        "phone": "+33 1 47 93 25 57",
+        "ref:FR:SIRET": "40086849300026",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13076560975,
+      "lat": 48.8788183,
+      "lon": 2.4497098,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Boulevard de la Boissière",
+        "diet:halal": "only",
+        "name": "O'Boeuf",
+        "shop": "butcher",
+        "website": "https://www.oboeuf.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13077685243,
+      "lat": 48.704321,
+      "lon": 2.4284982,
+      "tags": {
+        "addr:city": "Vigneux-sur-Seine",
+        "addr:housenumber": "35",
+        "addr:postcode": "91270",
+        "addr:street": "Avenue Henri Charon",
+        "diet:halal": "yes",
+        "name": "Boucherie du marché",
+        "opening_hours": "Tu-Sa 09:00-19:30; Su 08:00-15:00",
+        "phone": "+33 9 88 30 70 08",
+        "ref:FR:SIRET": "88941712700012",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13098988356,
+      "lat": 48.8870275,
+      "lon": 2.368218,
+      "tags": {
+        "check_date": "2025-10-17",
+        "diet:halal": "only",
+        "name": "Boucherie Al Wafa",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13185791761,
+      "lat": 43.7068131,
+      "lon": 7.2559382,
+      "tags": {
+        "addr:housenumber": "111",
+        "addr:street": "Boulevard Gambetta",
+        "diet:halal": "yes",
+        "name": "Boucherie El Karkari",
+        "phone": "+33493960185",
+        "ref:FR:SIRET": "44119842100014",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13195454793,
+      "lat": 45.7719201,
+      "lon": 4.9094404,
+      "tags": {
+        "addr:city": "Vaulx-en-Velin",
+        "addr:housenumber": "168",
+        "addr:postcode": "69120",
+        "addr:street": "Avenue Gabriel Péri",
+        "diet:halal": "only",
+        "name": "Erko Market",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13267057804,
+      "lat": 47.3590346,
+      "lon": 1.7433586,
+      "tags": {
+        "cuisine": "cold cuts",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13386232169,
+      "lat": 48.9215897,
+      "lon": 2.4111767,
+      "tags": {
+        "addr:city": "La Courneuve",
+        "addr:housenumber": "75",
+        "addr:postcode": "93120",
+        "addr:street": "Avenue Paul Vaillant Couturier",
+        "cuisine": "pakistani, indian, bangladesh",
+        "diet:halal": "yes",
+        "name": "Khan Cash & Carry",
+        "phone": "+33666003111",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13386232170,
+      "lat": 48.9212146,
+      "lon": 2.4107837,
+      "tags": {
+        "addr:city": "La Courneuve",
+        "addr:housenumber": "63",
+        "addr:postcode": "93120",
+        "addr:street": "Avenue Paul Vaillant Couturier",
+        "diet:halal": "only",
+        "name": "Boucherie Musulmane",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13409185811,
+      "lat": 48.7534263,
+      "lon": 7.7760255,
+      "tags": {
+        "addr:city": "Weitbruch",
+        "addr:housenumber": "91",
+        "addr:postcode": "67500",
+        "addr:street": "rue principale",
+        "diet:halal": "no",
+        "name": "Boucherie - charcuterie Fechter",
+        "opening_hours": "Mo-Fr 08:00-12:15; Mo-We, Fr 14:30-18:30; Sa 07:00-15:00",
+        "phone": "+33 3 88 72 36 26",
+        "ref:FR:SIRET": "31981387900024",
+        "shop": "butcher",
+        "website": "https://fechter.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13528276747,
+      "lat": 49.4411235,
+      "lon": 1.1028262,
+      "tags": {
+        "contact:housenumber": "56",
+        "contact:street": "Rue Armand Carrel",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "diet:halal": "only",
+        "drive_through": "no",
+        "name": "La Normandie",
+        "opening_hours": "Tu-Sa 08:00-20:00; Su 08:00-14:30",
+        "operator": "La Normandie",
+        "payment:cash": "yes",
+        "phone": "+33 2 35 71 13 92",
+        "ref:FR:SIRET": "95300258100015",
+        "shop": "butcher",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13614859287,
+      "lat": 49.0309813,
+      "lon": 2.361159,
+      "tags": {
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "name": "Boucherie de la ferme",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13652343635,
+      "lat": 47.7653407,
+      "lon": 2.375663,
+      "tags": {
+        "addr:city": "Sully-sur-Loire",
+        "addr:housenumber": "9",
+        "addr:postcode": "45600",
+        "addr:street": "Rue Porte de Sologne",
+        "butcher": "horse",
+        "description": "Boucherie spécialisée dans le bio pour le bœuf, le porc, la volaille, le cheval...",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "level": "0",
+        "name": "Boucherie Charcuterie Thiebart",
+        "opening_hours": "Mo,We-Sa 08:00-12:45,15:15-19:00; Tu 08:00-12:45",
+        "phone": "+33 2 38 36 25 66",
+        "shop": "butcher",
+        "website": "https://www.facebook.com/boucheriethiebart/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13664421463,
+      "lat": 46.0683533,
+      "lon": 6.5710648,
+      "tags": {
+        "addr:floor": "0",
+        "check_date": "2026-03-20",
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "Boucherie Clemenceau",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13669047103,
+      "lat": 47.7659563,
+      "lon": 2.3742079,
+      "tags": {
+        "addr:city": "Sully-sur-Loire",
+        "addr:housenumber": "22",
+        "addr:postcode": "45600",
+        "addr:street": "Rue du Grand Sully",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "email": "m-mulon-joffrey@orange.fr",
+        "level": "0",
+        "name": "Mulon",
+        "opening_hours": "Tu-Fr 08:00-12:30,15:00-19:00; Sa 08:00-13:00,15:00-19:00; Su 08:00-13:00",
+        "phone": "+33 2 38 05 70 69",
+        "ref:FR:SIRET": "83205797000010",
+        "shop": "butcher",
+        "website": "https://boucheriemulon.com/",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}
