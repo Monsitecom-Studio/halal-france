@@ -3,12 +3,12 @@ import { createClient } from '@/lib/supabase/server'
 import Navbar from '@/components/layout/Navbar'
 import AdminClient from './AdminClient'
 
-const ADMIN_EMAILS = ['monsitecomfr@gmail.com']
+const ADMIN_UIDS = ['acca4e9e-4002-484f-872b-471fa8c4da64']
 
 export default async function AdminPage() {
   const supabase = createClient()
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user || !ADMIN_EMAILS.includes(user.email || '')) redirect('/')
+  if (!user || !ADMIN_UIDS.includes(user.id)) redirect('/')
 
   const [
     { data: pending },
