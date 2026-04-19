@@ -1,6 +1,7 @@
 import { Suspense } from 'react'
 import { MapPin, Map as MapIcon } from 'lucide-react'
 import { getBoucheries, getVillesWithCount } from '@/lib/supabase/queries'
+import { createClient } from '@/lib/supabase/server'
 import SearchBar from '@/components/search/SearchBar'
 import BoucherieCard from '@/components/boucherie/BoucherieCard'
 import Navbar from '@/components/layout/Navbar'
@@ -8,59 +9,6 @@ import Footer from '@/components/layout/Footer'
 import Link from 'next/link'
 
 export const revalidate = 3600
-
-const VILLES_FALLBACK = [
-  { city: "Paris", count: 87 },
-  { city: "Marseille", count: 41 },
-  { city: "Lyon", count: 34 },
-  { city: "Toulouse", count: 19 },
-  { city: "Lille", count: 15 },
-  { city: "Bordeaux", count: 12 },
-  { city: "Nantes", count: 9 },
-  { city: "Strasbourg", count: 10 },
-  { city: "Nice", count: 12 },
-  { city: "Montpellier", count: 9 },
-  { city: "Rennes", count: 7 },
-  { city: "Rouen", count: 6 },
-  { city: "Grenoble", count: 8 },
-  { city: "Saint-Étienne", count: 8 },
-  { city: "Toulon", count: 6 },
-  { city: "Reims", count: 6 },
-  { city: "Metz", count: 6 },
-  { city: "Mulhouse", count: 7 },
-  { city: "Dijon", count: 5 },
-  { city: "Nîmes", count: 5 },
-  { city: "Perpignan", count: 5 },
-  { city: "Clermont-Ferrand", count: 5 },
-  { city: "Amiens", count: 5 },
-  { city: "Tours", count: 5 },
-  { city: "Avignon", count: 5 },
-  { city: "Caen", count: 5 },
-  { city: "Le Havre", count: 5 },
-  { city: "Orléans", count: 5 },
-  { city: "Angers", count: 5 },
-  { city: "Besançon", count: 5 },
-  { city: "Limoges", count: 5 },
-  { city: "Le Mans", count: 5 },
-  { city: "Brest", count: 5 },
-  { city: "Pau", count: 5 },
-  { city: "Dunkerque", count: 5 },
-  { city: "Valence", count: 5 },
-  { city: "Colmar", count: 5 },
-  { city: "Troyes", count: 5 },
-  { city: "Poitiers", count: 5 },
-  { city: "Calais", count: 5 },
-  { city: "Bayonne", count: 5 },
-  { city: "Lorient", count: 3 },
-  { city: "Chambéry", count: 5 },
-  { city: "Annecy", count: 5 },
-  { city: "Les Lilas", count: 4 },
-  { city: "Villeurbanne", count: 4 },
-  { city: "Vaulx-en-Velin", count: 3 },
-  { city: "Bron", count: 3 },
-  { city: "Aubagne", count: 3 },
-  { city: "Vitry-sur-Seine", count: 3 }
-]
 
 const CERT_INFO = [
   { id: 'avs', color: '#1e40af', name: 'AVS', desc: 'Organisme indépendant, 3 visites/jour sur site', count: 89 },
@@ -72,16 +20,18 @@ const CERT_INFO = [
 const QUICK_SEARCHES = ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Bordeaux', 'Strasbourg', 'Certification AVS', 'Mosquée de Paris']
 
 export default async function HomePage() {
-  const [topBoucheries, villesDB] = await Promise.all([
-    getBoucheries({ sort: 'reviews' }).then(d => d.slice(0, 8)).catch(() => []),
+  const supabase = createClient()
+
+  const [topBoucheries, villesDB, { count: totalBoucheries }, { count: totalAvis }] = await Promise.all([
+    getBoucheries({ sort: 'popular' }).then(d => d.slice(0, 8)).catch(() => []),
     getVillesWithCount().catch(() => []),
+    supabase.from('boucheries').select('*', { count: 'exact', head: true }).eq('is_approved', true),
+    supabase.from('avis').select('*', { count: 'exact', head: true }),
   ])
 
-  const villesMap = new Map(villesDB.map(v => [v.city, v.count]))
-  const villes = VILLES_FALLBACK.map(v => ({
-    city: v.city,
-    count: villesMap.get(v.city) ?? v.count,
-  })).sort((a, b) => b.count - a.count)
+  const total = totalBoucheries ?? 0
+  const totalLabel = total >= 1000 ? `${(total / 1000).toFixed(1)}k+` : `${total}+`
+  const avisLabel = (totalAvis ?? 0) >= 1000 ? `${Math.floor((totalAvis ?? 0) / 1000)}k+` : `${totalAvis ?? 0}`
 
   return (
     <>
@@ -93,7 +43,7 @@ export default async function HomePage() {
           <div className="max-w-2xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-green-50 text-halal-green border border-green-200 rounded-full px-4 py-1.5 text-xs font-medium mb-8">
               <span className="w-1.5 h-1.5 rounded-full bg-halal-green inline-block" />
-              258+ boucheries référencées en France
+              {totalLabel} boucheries référencées en France
             </div>
 
             <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4 leading-tight tracking-tight">
@@ -129,10 +79,10 @@ export default async function HomePage() {
         <div className="border-b border-gray-100 bg-gray-50">
           <div className="max-w-2xl mx-auto grid grid-cols-4 divide-x divide-gray-100">
             {[
-              { n: '258+', label: 'boucheries' },
-              { n: `${villes.length}+`, label: 'villes' },
+              { n: totalLabel, label: 'boucheries' },
+              { n: `${villesDB.length}+`, label: 'villes' },
               { n: '4', label: 'certifications' },
-              { n: '12k+', label: 'avis' },
+              { n: avisLabel, label: 'avis' },
             ].map(s => (
               <div key={s.label} className="py-5 text-center">
                 <div className="text-2xl font-semibold text-halal-green">{s.n}</div>
@@ -181,10 +131,10 @@ export default async function HomePage() {
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-baseline justify-between mb-6">
             <h2 className="text-xl font-semibold text-gray-900">Toutes les villes</h2>
-            <span className="text-sm text-gray-400">{villes.length} villes couvertes</span>
+            <span className="text-sm text-gray-400">{villesDB.length} villes couvertes</span>
           </div>
           <div className="flex flex-wrap gap-2">
-            {villes.map(v => (
+            {villesDB.map(v => (
               <Link
                 key={v.city}
                 href={`/ville/${encodeURIComponent(v.city.toLowerCase())}`}
