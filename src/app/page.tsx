@@ -26,7 +26,7 @@ export default async function HomePage() {
     getBoucheries({ sort: 'popular' }).then(d => d.slice(0, 8)).catch(() => []),
     getVillesWithCount().catch(() => []),
     supabase.from('boucheries').select('*', { count: 'exact', head: true }).eq('is_approved', true),
-    supabase.from('avis').select('*', { count: 'exact', head: true }),
+    supabase.from('boucheries').select('reviews_count').eq('is_approved', true),
   ])
 
   const total = totalBoucheries ?? 0
