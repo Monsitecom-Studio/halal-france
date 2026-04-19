@@ -22,16 +22,20 @@ const QUICK_SEARCHES = ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Bordeaux', 'S
 export default async function HomePage() {
   const supabase = createClient()
 
-  const [topBoucheries, villesDB, { count: totalBoucheries }, { count: totalAvis }] = await Promise.all([
+  const [topBoucheries, villesDB, { count: totalBoucheries }, reviewsData, { count: userAvis }] = await Promise.all([
     getBoucheries({ sort: 'popular' }).then(d => d.slice(0, 8)).catch(() => []),
     getVillesWithCount().catch(() => []),
     supabase.from('boucheries').select('*', { count: 'exact', head: true }).eq('is_approved', true),
     supabase.from('boucheries').select('reviews_count').eq('is_approved', true),
+    supabase.from('avis').select('*', { count: 'exact', head: true }),
   ])
 
   const total = totalBoucheries ?? 0
   const totalLabel = total >= 1000 ? `${(total / 1000).toFixed(1)}k+` : `${total}+`
-  const avisLabel = (totalAvis ?? 0) >= 1000 ? `${Math.floor((totalAvis ?? 0) / 1000)}k+` : `${totalAvis ?? 0}`
+
+  const googleAvis = (reviewsData.data ?? []).reduce((sum: number, b: any) => sum + (b.reviews_count || 0), 0)
+  const totalAvisCount = googleAvis + (userAvis ?? 0)
+  const avisLabel = totalAvisCount >= 1000 ? `${Math.floor(totalAvisCount / 1000)}k+` : `${totalAvisCount}`
 
   return (
     <>
