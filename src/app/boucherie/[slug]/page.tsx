@@ -9,6 +9,7 @@ import BoucherieCard from '@/components/boucherie/BoucherieCard'
 import AvisSection from '@/components/boucherie/AvisSection'
 import PhotosSection from '@/components/boucherie/PhotosSection'
 import CertVoteSection from '@/components/boucherie/CertVoteSection'
+import SignalerButton from '@/components/boucherie/SignalerButton'
 import { CERTIFICATION_INFO } from '@/types'
 import type { Metadata } from 'next'
 
@@ -120,11 +121,15 @@ export default async function BoucheriePage({ params }: Props) {
           </div>
 
           {b.horaires && (
-            <div className="flex items-center gap-2 text-sm text-gray-600 mt-4 pt-4 border-t">
+            <div className="flex items-center gap-2 text-sm text-gray-600 mt-4 pt-4 border-t border-gray-100">
               <Clock className="w-4 h-4 shrink-0 text-halal-green" />
               <span>{b.horaires}</span>
             </div>
           )}
+
+          <div className="mt-4 pt-4 border-t border-gray-100">
+            <SignalerButton boucherieId={b.id} boucherieName={b.name} />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
