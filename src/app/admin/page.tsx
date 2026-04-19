@@ -9,6 +9,9 @@ export default async function AdminPage() {
   const supabase = createClient()
   const { data: { user } } = await supabase.auth.getUser()
 
+  console.log('ADMIN DEBUG - user.id:', user?.id, '| user.email:', user?.email)
+  console.log('ADMIN_UIDS includes:', user?.id ? ADMIN_UIDS.includes(user.id) : false)
+
   if (!user || !ADMIN_UIDS.includes(user.id)) redirect('/')
 
   const [
