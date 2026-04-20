@@ -1,8 +1,6 @@
 import { createClient } from './server'
 import type { Boucherie, SearchFilters } from '@/types'
 
-// Score bayésien : équilibre note et nombre d'avis
-// m = seuil minimum d'avis, C = moyenne globale estimée
 const BAYES_M = 50
 const BAYES_C = 4.2
 
@@ -14,14 +12,10 @@ function bayesianScore(rating: number | undefined, reviewsCount: number): number
 
 export async function getBoucheries(filters: SearchFilters = {}) {
   const supabase = createClient()
-  let query = supabase
-    .from('boucheries_with_stats')
-    .select('*')
+  let query = supabase.from('boucheries_with_stats').select('*')
 
   if (filters.query) {
-    query = query.or(
-      `name.ilike.%${filters.query}%,city.ilike.%${filters.query}%,address.ilike.%${filters.query}%`
-    )
+    query = query.or(`name.ilike.%${filters.query}%,city.ilike.%${filters.query}%,address.ilike.%${filters.query}%`)
   }
   if (filters.city) query = query.ilike('city', `%${filters.city}%`)
   if (filters.dept) query = query.eq('dept', filters.dept)
@@ -30,15 +24,12 @@ export async function getBoucheries(filters: SearchFilters = {}) {
     query = query.eq('certification', filters.certification)
   }
 
-  // Pour le tri bayésien on récupère tout sans tri Supabase
   const isBayes = filters.sort === 'popular' || !filters.sort
-
   const sortMap: Record<string, { col: string; asc: boolean }> = {
     rating: { col: 'rating_combined', asc: false },
     reviews: { col: 'reviews_count', asc: false },
     recent: { col: 'created_at', asc: false },
   }
-
   if (!isBayes) {
     const sort = sortMap[filters.sort!] ?? { col: 'reviews_count', asc: false }
     query = query.order(sort.col, { ascending: sort.asc })
@@ -46,18 +37,27 @@ export async function getBoucheries(filters: SearchFilters = {}) {
 
   const { data, error } = await query.limit(500)
   if (error) throw error
-
   const boucheries = data as Boucherie[]
-
-  // Tri bayésien côté JS (tri par défaut / "Popularité")
   if (isBayes) {
     boucheries.sort((a, b) =>
       bayesianScore(b.rating_combined, b.reviews_count) -
       bayesianScore(a.rating_combined, a.reviews_count)
     )
   }
-
   return boucheries
+}
+
+export async function getBoucheriesForMap() {
+  const supabase = createClient()
+  const { data, error } = await supabase
+    .from('boucheries_with_stats')
+    .select('id, name, slug, lat, lng, city, certification, certification_verified, rating_combined, rating, reviews_count, address, phone')
+    .eq('is_approved', true)
+    .not('lat', 'is', null)
+    .not('lng', 'is', null)
+    .limit(5000)
+  if (error) throw error
+  return data as Boucherie[]
 }
 
 export async function getBoucherieBySlug(slug: string) {
@@ -125,7 +125,6 @@ export async function getVillesWithCount() {
     .select('city, dept, region')
     .eq('is_approved', true)
   if (error) throw error
-
   const counts: Record<string, { city: string; dept: string; region: string; count: number }> = {}
   data?.forEach((b) => {
     const key = b.city
@@ -139,7 +138,6 @@ export async function getProximity(lat: number, lng: number, radius = 10, limit 
   const supabase = createClient()
   const latDelta = radius / 111
   const lngDelta = radius / (111 * Math.cos((lat * Math.PI) / 180))
-
   const { data, error } = await supabase
     .from('boucheries_with_stats')
     .select('*')
@@ -148,9 +146,7 @@ export async function getProximity(lat: number, lng: number, radius = 10, limit 
     .gte('lng', lng - lngDelta)
     .lte('lng', lng + lngDelta)
     .limit(limit)
-
   if (error) throw error
-
   return (data as Boucherie[]).sort((a, b) => {
     const da = Math.sqrt((a.lat - lat) ** 2 + (a.lng - lng) ** 2)
     const db = Math.sqrt((b.lat - lat) ** 2 + (b.lng - lng) ** 2)
