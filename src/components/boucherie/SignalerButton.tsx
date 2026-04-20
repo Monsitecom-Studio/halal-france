@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Flag } from 'lucide-react'
+import { Flag, X, ChevronRight } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
 interface Props {
@@ -9,10 +9,19 @@ interface Props {
   boucherieName: string
 }
 
+const RAISONS = [
+  { value: 'non_halal', label: '🚫 Cette boucherie n\'est pas halal' },
+  { value: 'fermee', label: '🔒 Cette boucherie est fermée définitivement' },
+  { value: 'horaires', label: '🕐 Les horaires ont changé' },
+  { value: 'mauvaise_adresse', label: '📍 Adresse incorrecte' },
+  { value: 'doublon', label: '♻️ Doublon' },
+  { value: 'autre', label: '❓ Autre problème' },
+]
+
 export default function SignalerButton({ boucherieId, boucherieName }: Props) {
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
-  const [showForm, setShowForm] = useState(false)
+  const [showModal, setShowModal] = useState(false)
   const [raison, setRaison] = useState('non_halal')
 
   const handleSignal = async () => {
@@ -28,56 +37,84 @@ export default function SignalerButton({ boucherieId, boucherieName }: Props) {
 
     setSent(true)
     setLoading(false)
-    setShowForm(false)
+    setShowModal(false)
   }
 
   if (sent) return (
-    <p className="text-xs text-gray-400 flex items-center gap-1">
-      <Flag className="w-3 h-3" /> Signalement envoyé, merci.
-    </p>
+    <div className="flex items-center gap-2 bg-green-50 text-green-700 rounded-xl px-4 py-3 text-sm">
+      <Flag className="w-4 h-4" />
+      Merci pour votre signalement, nous allons vérifier.
+    </div>
   )
 
   return (
-    <div>
-      {!showForm ? (
-        <button
-          onClick={() => setShowForm(true)}
-          className="flex items-center gap-1 text-xs text-gray-400 hover:text-red-500 transition-colors"
-        >
-          <Flag className="w-3 h-3" />
-          Signaler un problème
-        </button>
-      ) : (
-        <div className="bg-gray-50 rounded-xl p-4 mt-3 space-y-3">
-          <p className="text-sm font-medium">Signaler "{boucherieName}"</p>
-          <select
-            value={raison}
-            onChange={e => setRaison(e.target.value)}
-            className="input-field text-sm"
-          >
-            <option value="non_halal">Cette boucherie n'est pas halal</option>
-            <option value="fermee">Cette boucherie est fermée définitivement</option>
-            <option value="mauvaise_adresse">Adresse incorrecte</option>
-            <option value="doublon">Doublon</option>
-            <option value="autre">Autre</option>
-          </select>
-          <div className="flex gap-2">
-            <button
-              onClick={handleSignal}
-              disabled={loading}
-              className="btn-primary text-sm px-4 py-2"
-            >
-              {loading ? 'Envoi...' : 'Envoyer'}
-            </button>
-            <button
-              onClick={() => setShowForm(false)}
-              className="btn-secondary text-sm px-4 py-2"
-            >
-              Annuler
-            </button>
+    <>
+      <button
+        onClick={() => setShowModal(true)}
+        className="w-full flex items-center justify-between bg-orange-50 border border-orange-200 text-orange-700 rounded-xl px-4 py-3 text-sm font-medium hover:bg-orange-100 transition-colors"
+      >
+        <div className="flex items-center gap-2">
+          <Flag className="w-4 h-4" />
+          <span>Aidez la communauté — Signaler un problème</span>
+        </div>
+        <ChevronRight className="w-4 h-4" />
+      </button>
+
+      {showModal && (
+        <div className="fixed inset-0 bg-black/50 z-50 flex items-end sm:items-center justify-center p-4">
+          <div className="bg-white rounded-2xl w-full max-w-md">
+            <div className="flex items-center justify-between p-4 border-b border-gray-100">
+              <h3 className="font-semibold text-gray-900">Signaler un problème</h3>
+              <button onClick={() => setShowModal(false)} className="text-gray-400 hover:text-gray-600">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <p className="text-xs text-gray-400 px-4 pt-3">
+              Aidez la communauté à maintenir l&apos;annuaire à jour pour <span className="font-medium text-gray-600">{boucherieName}</span>
+            </p>
+
+            <div className="p-4 space-y-2">
+              {RAISONS.map(r => (
+                <label
+                  key={r.value}
+                  className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer border transition-colors ${
+                    raison === r.value
+                      ? 'border-halal-green bg-green-50'
+                      : 'border-gray-100 hover:border-gray-200'
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="raison"
+                    value={r.value}
+                    checked={raison === r.value}
+                    onChange={() => setRaison(r.value)}
+                    className="accent-halal-green"
+                  />
+                  <span className="text-sm text-gray-700">{r.label}</span>
+                </label>
+              ))}
+            </div>
+
+            <div className="p-4 border-t border-gray-100 flex gap-2">
+              <button
+                onClick={() => setShowModal(false)}
+                className="flex-1 btn-secondary py-3 text-sm"
+              >
+                Annuler
+              </button>
+              <button
+                onClick={handleSignal}
+                disabled={loading}
+                className="flex-1 btn-primary py-3 text-sm"
+              >
+                {loading ? 'Envoi...' : 'Envoyer le signalement'}
+              </button>
+            </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   )
 }
