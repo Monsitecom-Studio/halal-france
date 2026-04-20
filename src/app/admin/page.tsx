@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import { createClient } from '@/lib/supabase/server'
+import { createClient, createAdminClient } from '@/lib/supabase/server'
 import Navbar from '@/components/layout/Navbar'
 import AdminClient from './AdminClient'
 
@@ -17,6 +17,8 @@ export default async function AdminPage() {
 
   if (!adminRow) redirect('/')
 
+  const adminClient = createAdminClient()
+
   const [
     { data: pending },
     { count: totalApproved },
@@ -26,7 +28,7 @@ export default async function AdminPage() {
     supabase.from('boucheries').select('*').eq('is_approved', false).order('created_at', { ascending: false }),
     supabase.from('boucheries').select('*', { count: 'exact', head: true }).eq('is_approved', true),
     supabase.from('signalements').select('*, boucheries(name, city, slug)').eq('traite', false).order('created_at', { ascending: false }),
-    supabase.auth.admin.listUsers(),
+    adminClient.auth.admin.listUsers(),
   ])
 
   const users = usersData.data?.users || []
