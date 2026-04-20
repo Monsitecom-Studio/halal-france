@@ -1,4 +1,4 @@
-export type Certification = 'avs' | 'argml' | 'mosquee-paris' | 'acmif' | 'unknown'
+export type Certification = 'avs' | 'argml' | 'mosquee-paris' | 'acmif' | 'other' | 'unknown'
 
 export interface CertificationInfo {
   id: Certification
@@ -26,6 +26,7 @@ export interface Boucherie {
   reviews_count: number
   google_place_id?: string
   certification: Certification
+  certification_detail?: string
   certification_verified: boolean
   certification_photo_url?: string
   added_by?: string
@@ -110,10 +111,18 @@ export const CERTIFICATION_INFO: Record<Certification, CertificationInfo> = {
   acmif: {
     id: 'acmif',
     name: 'ACMIF',
-    full_name: 'Mosquée d\'Évry',
+    full_name: "Mosquée d'Évry",
     description: 'Certifie Reghalal (LDC), partenariats industriels',
     color: '#059669',
     icon: '🟢',
+  },
+  other: {
+    id: 'other',
+    name: 'Autre certification',
+    full_name: 'Autre organisme de certification halal',
+    description: 'Certifié par un autre organisme halal reconnu (Isla Délices, HMC, IFANCA, etc.)',
+    color: '#0891b2',
+    icon: '🔷',
   },
   unknown: {
     id: 'unknown',
