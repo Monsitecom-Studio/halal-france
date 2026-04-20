@@ -26,6 +26,21 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) { setError('Connectez-vous pour voter'); setLoading(false); return }
 
+    // Même certification = retirer le vote
+    if (userVote === certification) {
+      await supabase
+        .from('certification_votes')
+        .delete()
+        .eq('boucherie_id', boucherieId)
+        .eq('user_id', user.id)
+
+      setVotes(prev => ({ ...prev, [certification]: Math.max(0, (prev[certification] || 1) - 1) }))
+      setUserVote(null)
+      setLoading(false)
+      return
+    }
+
+    // Nouvelle certification = upsert
     const { error: err } = await supabase
       .from('certification_votes')
       .upsert(
@@ -36,15 +51,11 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
     if (err) {
       setError(err.message)
     } else {
-      if (userVote && userVote !== certification) {
-        setVotes(prev => ({
-          ...prev,
-          [userVote]: Math.max(0, (prev[userVote] || 1) - 1),
-          [certification]: (prev[certification] || 0) + 1,
-        }))
-      } else if (!userVote) {
-        setVotes(prev => ({ ...prev, [certification]: (prev[certification] || 0) + 1 }))
-      }
+      setVotes(prev => ({
+        ...prev,
+        ...(userVote ? { [userVote]: Math.max(0, (prev[userVote] || 1) - 1) } : {}),
+        [certification]: (prev[certification] || 0) + 1,
+      }))
       setUserVote(certification)
     }
     setLoading(false)
@@ -90,7 +101,10 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
         })}
       </div>
       {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
-      {userVote && <p className="text-xs text-gray-400 mt-2 text-center">Vote enregistré — cliquez pour modifier</p>}
+      {userVote
+        ? <p className="text-xs text-gray-400 mt-2 text-center">Cliquez à nouveau pour retirer ou changer votre vote</p>
+        : <p className="text-xs text-gray-400 mt-2 text-center">Cliquez pour voter</p>
+      }
     </div>
   )
 }
