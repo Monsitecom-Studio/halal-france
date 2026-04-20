@@ -119,6 +119,12 @@ export default function CarteVilles({ villes, totalLabel, avisLabel }: Props) {
     if (!containerRef.current || mapRef.current) return
 
     import('leaflet').then((L) => {
+      if (!document.querySelector('link[href*="leaflet"]')) {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css'
+        document.head.appendChild(link)
+      }
       const map = L.map(containerRef.current!, {
         center: [46.5, 2.5],
         zoom: 5,
