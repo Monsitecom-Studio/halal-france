@@ -13,6 +13,7 @@ interface Props {
 
 export default function CertVoteSection({ boucherieId, votes: initialVotes }: Props) {
   const [votes, setVotes] = useState(initialVotes)
+  const [userVote, setUserVote] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -27,11 +28,24 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
 
     const { error: err } = await supabase
       .from('certification_votes')
-      .upsert({ boucherie_id: boucherieId, user_id: user.id, certification })
+      .upsert(
+        { boucherie_id: boucherieId, user_id: user.id, certification },
+        { onConflict: 'boucherie_id,user_id' }
+      )
 
-    if (err) { setError(err.message) }
-    else {
-      setVotes(prev => ({ ...prev, [certification]: (prev[certification] || 0) + 1 }))
+    if (err) {
+      setError(err.message)
+    } else {
+      if (userVote && userVote !== certification) {
+        setVotes(prev => ({
+          ...prev,
+          [userVote]: Math.max(0, (prev[userVote] || 1) - 1),
+          [certification]: (prev[certification] || 0) + 1,
+        }))
+      } else if (!userVote) {
+        setVotes(prev => ({ ...prev, [certification]: (prev[certification] || 0) + 1 }))
+      }
+      setUserVote(certification)
     }
     setLoading(false)
   }
@@ -50,15 +64,17 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
         {Object.values(CERTIFICATION_INFO).map((cert) => {
           const count = votes[cert.id] || 0
           const pct = totalVotes > 0 ? Math.round((count / totalVotes) * 100) : 0
+          const isSelected = userVote === cert.id
           return (
             <button
               key={cert.id}
               onClick={() => handleVote(cert.id as Certification)}
               disabled={loading}
-              className="w-full text-left"
+              className={`w-full text-left rounded-lg p-1 transition-colors ${isSelected ? 'bg-green-50' : 'hover:bg-gray-50'}`}
             >
               <div className="flex items-center justify-between text-xs mb-0.5">
-                <span className="font-medium" style={{ color: cert.color }}>
+                <span className="font-medium flex items-center gap-1" style={{ color: cert.color }}>
+                  {isSelected && <span>✓</span>}
                   {cert.icon} {cert.name}
                 </span>
                 <span className="text-gray-500">{count} vote{count > 1 ? 's' : ''}</span>
@@ -74,6 +90,7 @@ export default function CertVoteSection({ boucherieId, votes: initialVotes }: Pr
         })}
       </div>
       {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
+      {userVote && <p className="text-xs text-gray-400 mt-2 text-center">Vote enregistré — cliquez pour modifier</p>}
     </div>
   )
 }
