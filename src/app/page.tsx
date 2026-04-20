@@ -1,9 +1,10 @@
 import { Suspense } from 'react'
-import { MapPin, Map as MapIcon } from 'lucide-react'
+import { MapPin } from 'lucide-react'
 import { getBoucheries, getVillesWithCount } from '@/lib/supabase/queries'
 import { createClient } from '@/lib/supabase/server'
 import SearchBar from '@/components/search/SearchBar'
 import BoucherieCard from '@/components/boucherie/BoucherieCard'
+import CarteVilles from '@/components/home/CarteVilles'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import Link from 'next/link'
@@ -32,7 +33,6 @@ export default async function HomePage() {
 
   const total = totalBoucheries ?? 0
   const totalLabel = total >= 1000 ? `${(total / 1000).toFixed(1)}k+` : `${total}+`
-
   const googleAvis = (reviewsData.data ?? []).reduce((sum: number, b: any) => sum + (b.reviews_count || 0), 0)
   const totalAvisCount = googleAvis + (userAvis ?? 0)
   const avisLabel = totalAvisCount >= 1000 ? `${Math.floor(totalAvisCount / 1000)}k+` : `${totalAvisCount}`
@@ -41,7 +41,6 @@ export default async function HomePage() {
     <>
       <Navbar />
       <main>
-
         {/* Hero */}
         <section className="bg-white border-b border-gray-100 px-4 py-20 text-center">
           <div className="max-w-2xl mx-auto">
@@ -49,7 +48,6 @@ export default async function HomePage() {
               <span className="w-1.5 h-1.5 rounded-full bg-halal-green inline-block" />
               {totalLabel} boucheries référencées en France
             </div>
-
             <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4 leading-tight tracking-tight">
               L&apos;annuaire des boucheries<br />
               <span className="text-halal-green">halal certifiées</span> en France
@@ -58,20 +56,13 @@ export default async function HomePage() {
               Trouvez une boucherie près de chez vous avec certification vérifiable.
               Avis de la communauté, photos, horaires.
             </p>
-
             <div className="max-w-xl mx-auto mb-6">
-              <Suspense>
-                <SearchBar />
-              </Suspense>
+              <Suspense><SearchBar /></Suspense>
             </div>
-
             <div className="flex flex-wrap justify-center gap-2">
               {QUICK_SEARCHES.map(q => (
-                <Link
-                  key={q}
-                  href={`/boucheries?q=${encodeURIComponent(q)}`}
-                  className="px-3 py-1.5 rounded-full text-xs bg-gray-50 text-gray-500 border border-gray-100 hover:border-halal-green/40 hover:text-halal-green transition-colors"
-                >
+                <Link key={q} href={`/boucheries?q=${encodeURIComponent(q)}`}
+                  className="px-3 py-1.5 rounded-full text-xs bg-gray-50 text-gray-500 border border-gray-100 hover:border-halal-green/40 hover:text-halal-green transition-colors">
                   {q}
                 </Link>
               ))}
@@ -131,44 +122,20 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Toutes les villes */}
+        {/* Carte des villes */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-baseline justify-between mb-6">
-            <h2 className="text-xl font-semibold text-gray-900">Toutes les villes</h2>
-            <span className="text-sm text-gray-400">{villesDB.length} villes couvertes</span>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {villesDB.map(v => (
-              <Link
-                key={v.city}
-                href={`/ville/${encodeURIComponent(v.city.toLowerCase())}`}
-                className="flex items-center gap-2 bg-white border border-gray-100 rounded-lg px-3 py-2 text-sm hover:border-halal-green/40 hover:text-halal-green transition-colors group"
-              >
-                {v.city}
-                <span className="text-xs text-gray-300 group-hover:text-halal-green/60 transition-colors">
-                  {v.count}
-                </span>
-              </Link>
-            ))}
-          </div>
-
-          {/* CTA Carte */}
-          <div className="mt-10 bg-halal-green rounded-2xl p-8 text-center">
-            <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center mx-auto mb-4">
-              <MapIcon className="w-5 h-5 text-white" />
+            <div>
+              <h2 className="text-xl font-semibold text-gray-900">Boucheries halal en France</h2>
+              <p className="text-sm text-gray-400 mt-1">{villesDB.length} villes couvertes — survolez pour explorer</p>
             </div>
-            <h3 className="text-xl font-semibold text-white mb-2">Voir toutes les boucheries sur la carte</h3>
-            <p className="text-green-200 text-sm mb-6">Géolocalisation en temps réel, filtres par certification et rayon de recherche</p>
-            <Link
-              href="/carte"
-              className="inline-flex items-center gap-2 bg-white text-halal-green px-6 py-2.5 rounded-lg font-medium text-sm hover:bg-green-50 transition-colors"
-            >
-              <MapPin className="w-4 h-4" />
-              Ouvrir la carte interactive
+            <Link href="/carte" className="text-sm text-halal-green hover:underline flex items-center gap-1">
+              <MapPin className="w-3.5 h-3.5" />
+              Carte interactive
             </Link>
           </div>
+          <CarteVilles villes={villesDB} totalLabel={totalLabel} avisLabel={avisLabel} />
         </section>
-
       </main>
       <Footer />
     </>
