@@ -89,7 +89,6 @@ const VILLES_COORDS: Record<string, [number, number]> = {
   'La Ciotat': [43.1742, 5.6042],
   'Libourne': [44.9178, -0.2433],
   'Biarritz': [43.4832, -1.5586],
-  'Caen': [49.1829, -0.3707],
   'Roubaix': [50.6942, 3.1746],
   'Tourcoing': [50.7236, 3.1619],
   'Villejuif': [48.7944, 2.3633],
